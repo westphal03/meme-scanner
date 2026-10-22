@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: python3 history/fetch.py | tee history/LOG.txt
-      - run: pip install numpy && cd lab && python3 comite.py > /dev/null && cp comite-du-jour.md ../history/comite-du-jour.md && cp rejeu-total.csv ../history/ && cd .. && python3 sim_rug.py > /dev/null && cp rapport-rug.md history/ || true
+      - run: pip install numpy && cd lab && python3 comite.py > /dev/null && cp comite-du-jour.md ../history/comite-du-jour.md && cp rejeu-total.csv ../history/ && cd .. && python3 sim_rug.py > /dev/null && cp rapport-rug.md history/ || true && python3 lab/arena.py history > history/arene-log.txt && python3 meme_arena.py history || true
       - run: |
           git config user.name "meme-scanner"
           git config user.email "meme-scanner@users.noreply.github.com"

@@ -26,6 +26,7 @@ EXPIRE = 86400                # pas double en 24 h : on ferme
 RUNNER_MAX = 7 * 86400
 POLLS_PER_RUN, MAX_OPEN = 20, 60
 BOOK = os.path.join(S.DATA, "double_book.csv")
+PX = os.path.join(S.DATA, "double_px.csv")   # une ligne par releve de prix : sert aux 64 comptes meme de l'arene
 REPORT = os.path.join(S.DATA, "rapport-double.md")
 COLS = ["address", "name", "opened", "ratio", "buys", "sells", "liq", "entry_px", "tokens", "state", "t2x", "banked",
         "runner_tokens", "tokens2", "cost2", "last_ts", "last_px", "last_liq", "next_check", "closed", "reason",
@@ -94,6 +95,7 @@ def open_new(book, t):
                        sells=r["sells_h1"], liq=f"{liq:.0f}", entry_px=repr(px), tokens=repr(tokens), state="open",
                        t2x="", banked="0", runner_tokens="0", tokens2="0", cost2="0", last_ts=r["ts"], last_px=repr(px),
                        last_liq=f"{liq:.0f}", next_check="", closed="", reason="", pnl_usd="", polls="0", max_px=repr(px))
+        S.append(PX, [dict(address=a, ts=r["ts"], px=repr(px), liq=f"{liq:.0f}")], ["address", "ts", "px", "liq"])
         opened += 1
         n_open += 1
     return opened
@@ -112,6 +114,7 @@ def poll(book, t):
         px, liq = f(r["price_usd"]), f(r["liquidity_usd"])
         if px <= 0:
             continue
+        S.append(PX, [dict(address=p["address"], ts=iso(t), px=repr(px), liq=f"{liq:.0f}")], ["address", "ts", "px", "liq"])
         p.update(last_ts=iso(t), last_px=repr(px), last_liq=f"{liq:.0f}", polls=str(int(f(p["polls"])) + 1))
         p["max_px"] = repr(max(px, f(p["max_px"])))
         e = f(p["entry_px"])

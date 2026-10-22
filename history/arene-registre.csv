@@ -1,0 +1,581 @@
+compte,type,description,capital
+ARENE-0001,journalier,A-BTC risque 2% en=8;ka=1.0;tr=3,100
+ARENE-0002,journalier,A-BTC risque 2% en=8;ka=1.0;tr=5,100
+ARENE-0003,journalier,A-BTC risque 2% en=8;ka=1.5;tr=3,100
+ARENE-0004,journalier,A-BTC risque 2% en=8;ka=1.5;tr=5,100
+ARENE-0005,journalier,A-BTC risque 2% en=8;ka=2.0;tr=3,100
+ARENE-0006,journalier,A-BTC risque 2% en=8;ka=2.0;tr=5,100
+ARENE-0007,journalier,A-BTC risque 2% en=10;ka=1.0;tr=3,100
+ARENE-0008,journalier,A-BTC risque 2% en=10;ka=1.0;tr=5,100
+ARENE-0009,journalier,A-BTC risque 2% en=10;ka=1.5;tr=3,100
+ARENE-0010,journalier,A-BTC risque 2% en=10;ka=1.5;tr=5,100
+ARENE-0011,journalier,A-BTC risque 2% en=10;ka=2.0;tr=3,100
+ARENE-0012,journalier,A-BTC risque 2% en=10;ka=2.0;tr=5,100
+ARENE-0013,journalier,A-BTC risque 2% en=14;ka=1.0;tr=3,100
+ARENE-0014,journalier,A-BTC risque 2% en=14;ka=1.0;tr=5,100
+ARENE-0015,journalier,A-BTC risque 2% en=14;ka=1.5;tr=3,100
+ARENE-0016,journalier,A-BTC risque 2% en=14;ka=1.5;tr=5,100
+ARENE-0017,journalier,A-BTC risque 2% en=14;ka=2.0;tr=3,100
+ARENE-0018,journalier,A-BTC risque 2% en=14;ka=2.0;tr=5,100
+ARENE-0019,journalier,B-BTC risque 2% en=8;sn=20;pb=5,100
+ARENE-0020,journalier,B-BTC risque 2% en=8;sn=20;pb=7,100
+ARENE-0021,journalier,B-BTC risque 2% en=8;sn=30;pb=5,100
+ARENE-0022,journalier,B-BTC risque 2% en=8;sn=30;pb=7,100
+ARENE-0023,journalier,B-BTC risque 2% en=8;sn=50;pb=5,100
+ARENE-0024,journalier,B-BTC risque 2% en=8;sn=50;pb=7,100
+ARENE-0025,journalier,B-BTC risque 2% en=10;sn=20;pb=5,100
+ARENE-0026,journalier,B-BTC risque 2% en=10;sn=20;pb=7,100
+ARENE-0027,journalier,B-BTC risque 2% en=10;sn=30;pb=5,100
+ARENE-0028,journalier,B-BTC risque 2% en=10;sn=30;pb=7,100
+ARENE-0029,journalier,B-BTC risque 2% en=10;sn=50;pb=5,100
+ARENE-0030,journalier,B-BTC risque 2% en=10;sn=50;pb=7,100
+ARENE-0031,journalier,B-BTC risque 2% en=14;sn=20;pb=5,100
+ARENE-0032,journalier,B-BTC risque 2% en=14;sn=20;pb=7,100
+ARENE-0033,journalier,B-BTC risque 2% en=14;sn=30;pb=5,100
+ARENE-0034,journalier,B-BTC risque 2% en=14;sn=30;pb=7,100
+ARENE-0035,journalier,B-BTC risque 2% en=14;sn=50;pb=5,100
+ARENE-0036,journalier,B-BTC risque 2% en=14;sn=50;pb=7,100
+ARENE-0037,journalier,"C-BTC risque 2% ch=(10,20);mix=1.0",100
+ARENE-0038,journalier,"C-BTC risque 2% ch=(10,20);mix=0.5",100
+ARENE-0039,journalier,"C-BTC risque 2% ch=(20,30);mix=1.0",100
+ARENE-0040,journalier,"C-BTC risque 2% ch=(20,30);mix=0.5",100
+ARENE-0041,journalier,"C-BTC risque 2% ch=(20,55);mix=1.0",100
+ARENE-0042,journalier,"C-BTC risque 2% ch=(20,55);mix=0.5",100
+ARENE-0043,journalier,"C-BTC risque 2% ch=(30,60);mix=1.0",100
+ARENE-0044,journalier,"C-BTC risque 2% ch=(30,60);mix=0.5",100
+ARENE-0045,journalier,"D-BTC risque 2% hs=(3,7,14)",100
+ARENE-0046,journalier,"D-BTC risque 2% hs=(7,14,28)",100
+ARENE-0047,journalier,"D-BTC risque 2% hs=(14,28,56)",100
+ARENE-0048,journalier,"D-BTC risque 2% hs=(7,14)",100
+ARENE-0049,journalier,R-BTC risque 2% w=10;z0=1.5,100
+ARENE-0050,journalier,R-BTC risque 2% w=10;z0=2.0,100
+ARENE-0051,journalier,R-BTC risque 2% w=10;z0=2.5,100
+ARENE-0052,journalier,R-BTC risque 2% w=20;z0=1.5,100
+ARENE-0053,journalier,R-BTC risque 2% w=20;z0=2.0,100
+ARENE-0054,journalier,R-BTC risque 2% w=20;z0=2.5,100
+ARENE-0055,journalier,R-BTC risque 2% w=30;z0=1.5,100
+ARENE-0056,journalier,R-BTC risque 2% w=30;z0=2.0,100
+ARENE-0057,journalier,R-BTC risque 2% w=30;z0=2.5,100
+ARENE-0058,journalier,X-BTC risque 2% lb=7;k=1,100
+ARENE-0059,journalier,X-BTC risque 2% lb=7;k=2,100
+ARENE-0060,journalier,X-BTC risque 2% lb=14;k=1,100
+ARENE-0061,journalier,X-BTC risque 2% lb=14;k=2,100
+ARENE-0062,journalier,X-BTC risque 2% lb=28;k=1,100
+ARENE-0063,journalier,X-BTC risque 2% lb=28;k=2,100
+ARENE-0064,journalier,A-ETH risque 2% en=8;ka=1.0;tr=3,100
+ARENE-0065,journalier,A-ETH risque 2% en=8;ka=1.0;tr=5,100
+ARENE-0066,journalier,A-ETH risque 2% en=8;ka=1.5;tr=3,100
+ARENE-0067,journalier,A-ETH risque 2% en=8;ka=1.5;tr=5,100
+ARENE-0068,journalier,A-ETH risque 2% en=8;ka=2.0;tr=3,100
+ARENE-0069,journalier,A-ETH risque 2% en=8;ka=2.0;tr=5,100
+ARENE-0070,journalier,A-ETH risque 2% en=10;ka=1.0;tr=3,100
+ARENE-0071,journalier,A-ETH risque 2% en=10;ka=1.0;tr=5,100
+ARENE-0072,journalier,A-ETH risque 2% en=10;ka=1.5;tr=3,100
+ARENE-0073,journalier,A-ETH risque 2% en=10;ka=1.5;tr=5,100
+ARENE-0074,journalier,A-ETH risque 2% en=10;ka=2.0;tr=3,100
+ARENE-0075,journalier,A-ETH risque 2% en=10;ka=2.0;tr=5,100
+ARENE-0076,journalier,A-ETH risque 2% en=14;ka=1.0;tr=3,100
+ARENE-0077,journalier,A-ETH risque 2% en=14;ka=1.0;tr=5,100
+ARENE-0078,journalier,A-ETH risque 2% en=14;ka=1.5;tr=3,100
+ARENE-0079,journalier,A-ETH risque 2% en=14;ka=1.5;tr=5,100
+ARENE-0080,journalier,A-ETH risque 2% en=14;ka=2.0;tr=3,100
+ARENE-0081,journalier,A-ETH risque 2% en=14;ka=2.0;tr=5,100
+ARENE-0082,journalier,B-ETH risque 2% en=8;sn=20;pb=5,100
+ARENE-0083,journalier,B-ETH risque 2% en=8;sn=20;pb=7,100
+ARENE-0084,journalier,B-ETH risque 2% en=8;sn=30;pb=5,100
+ARENE-0085,journalier,B-ETH risque 2% en=8;sn=30;pb=7,100
+ARENE-0086,journalier,B-ETH risque 2% en=8;sn=50;pb=5,100
+ARENE-0087,journalier,B-ETH risque 2% en=8;sn=50;pb=7,100
+ARENE-0088,journalier,B-ETH risque 2% en=10;sn=20;pb=5,100
+ARENE-0089,journalier,B-ETH risque 2% en=10;sn=20;pb=7,100
+ARENE-0090,journalier,B-ETH risque 2% en=10;sn=30;pb=5,100
+ARENE-0091,journalier,B-ETH risque 2% en=10;sn=30;pb=7,100
+ARENE-0092,journalier,B-ETH risque 2% en=10;sn=50;pb=5,100
+ARENE-0093,journalier,B-ETH risque 2% en=10;sn=50;pb=7,100
+ARENE-0094,journalier,B-ETH risque 2% en=14;sn=20;pb=5,100
+ARENE-0095,journalier,B-ETH risque 2% en=14;sn=20;pb=7,100
+ARENE-0096,journalier,B-ETH risque 2% en=14;sn=30;pb=5,100
+ARENE-0097,journalier,B-ETH risque 2% en=14;sn=30;pb=7,100
+ARENE-0098,journalier,B-ETH risque 2% en=14;sn=50;pb=5,100
+ARENE-0099,journalier,B-ETH risque 2% en=14;sn=50;pb=7,100
+ARENE-0100,journalier,"C-ETH risque 2% ch=(10,20);mix=1.0",100
+ARENE-0101,journalier,"C-ETH risque 2% ch=(10,20);mix=0.5",100
+ARENE-0102,journalier,"C-ETH risque 2% ch=(20,30);mix=1.0",100
+ARENE-0103,journalier,"C-ETH risque 2% ch=(20,30);mix=0.5",100
+ARENE-0104,journalier,"C-ETH risque 2% ch=(20,55);mix=1.0",100
+ARENE-0105,journalier,"C-ETH risque 2% ch=(20,55);mix=0.5",100
+ARENE-0106,journalier,"C-ETH risque 2% ch=(30,60);mix=1.0",100
+ARENE-0107,journalier,"C-ETH risque 2% ch=(30,60);mix=0.5",100
+ARENE-0108,journalier,"D-ETH risque 2% hs=(3,7,14)",100
+ARENE-0109,journalier,"D-ETH risque 2% hs=(7,14,28)",100
+ARENE-0110,journalier,"D-ETH risque 2% hs=(14,28,56)",100
+ARENE-0111,journalier,"D-ETH risque 2% hs=(7,14)",100
+ARENE-0112,journalier,R-ETH risque 2% w=10;z0=1.5,100
+ARENE-0113,journalier,R-ETH risque 2% w=10;z0=2.0,100
+ARENE-0114,journalier,R-ETH risque 2% w=10;z0=2.5,100
+ARENE-0115,journalier,R-ETH risque 2% w=20;z0=1.5,100
+ARENE-0116,journalier,R-ETH risque 2% w=20;z0=2.0,100
+ARENE-0117,journalier,R-ETH risque 2% w=20;z0=2.5,100
+ARENE-0118,journalier,R-ETH risque 2% w=30;z0=1.5,100
+ARENE-0119,journalier,R-ETH risque 2% w=30;z0=2.0,100
+ARENE-0120,journalier,R-ETH risque 2% w=30;z0=2.5,100
+ARENE-0121,journalier,X-ETH risque 2% lb=7;k=1,100
+ARENE-0122,journalier,X-ETH risque 2% lb=7;k=2,100
+ARENE-0123,journalier,X-ETH risque 2% lb=14;k=1,100
+ARENE-0124,journalier,X-ETH risque 2% lb=14;k=2,100
+ARENE-0125,journalier,X-ETH risque 2% lb=28;k=1,100
+ARENE-0126,journalier,X-ETH risque 2% lb=28;k=2,100
+ARENE-0127,journalier,A-XRP risque 2% en=8;ka=1.0;tr=3,100
+ARENE-0128,journalier,A-XRP risque 2% en=8;ka=1.0;tr=5,100
+ARENE-0129,journalier,A-XRP risque 2% en=8;ka=1.5;tr=3,100
+ARENE-0130,journalier,A-XRP risque 2% en=8;ka=1.5;tr=5,100
+ARENE-0131,journalier,A-XRP risque 2% en=8;ka=2.0;tr=3,100
+ARENE-0132,journalier,A-XRP risque 2% en=8;ka=2.0;tr=5,100
+ARENE-0133,journalier,A-XRP risque 2% en=10;ka=1.0;tr=3,100
+ARENE-0134,journalier,A-XRP risque 2% en=10;ka=1.0;tr=5,100
+ARENE-0135,journalier,A-XRP risque 2% en=10;ka=1.5;tr=3,100
+ARENE-0136,journalier,A-XRP risque 2% en=10;ka=1.5;tr=5,100
+ARENE-0137,journalier,A-XRP risque 2% en=10;ka=2.0;tr=3,100
+ARENE-0138,journalier,A-XRP risque 2% en=10;ka=2.0;tr=5,100
+ARENE-0139,journalier,A-XRP risque 2% en=14;ka=1.0;tr=3,100
+ARENE-0140,journalier,A-XRP risque 2% en=14;ka=1.0;tr=5,100
+ARENE-0141,journalier,A-XRP risque 2% en=14;ka=1.5;tr=3,100
+ARENE-0142,journalier,A-XRP risque 2% en=14;ka=1.5;tr=5,100
+ARENE-0143,journalier,A-XRP risque 2% en=14;ka=2.0;tr=3,100
+ARENE-0144,journalier,A-XRP risque 2% en=14;ka=2.0;tr=5,100
+ARENE-0145,journalier,B-XRP risque 2% en=8;sn=20;pb=5,100
+ARENE-0146,journalier,B-XRP risque 2% en=8;sn=20;pb=7,100
+ARENE-0147,journalier,B-XRP risque 2% en=8;sn=30;pb=5,100
+ARENE-0148,journalier,B-XRP risque 2% en=8;sn=30;pb=7,100
+ARENE-0149,journalier,B-XRP risque 2% en=8;sn=50;pb=5,100
+ARENE-0150,journalier,B-XRP risque 2% en=8;sn=50;pb=7,100
+ARENE-0151,journalier,B-XRP risque 2% en=10;sn=20;pb=5,100
+ARENE-0152,journalier,B-XRP risque 2% en=10;sn=20;pb=7,100
+ARENE-0153,journalier,B-XRP risque 2% en=10;sn=30;pb=5,100
+ARENE-0154,journalier,B-XRP risque 2% en=10;sn=30;pb=7,100
+ARENE-0155,journalier,B-XRP risque 2% en=10;sn=50;pb=5,100
+ARENE-0156,journalier,B-XRP risque 2% en=10;sn=50;pb=7,100
+ARENE-0157,journalier,B-XRP risque 2% en=14;sn=20;pb=5,100
+ARENE-0158,journalier,B-XRP risque 2% en=14;sn=20;pb=7,100
+ARENE-0159,journalier,B-XRP risque 2% en=14;sn=30;pb=5,100
+ARENE-0160,journalier,B-XRP risque 2% en=14;sn=30;pb=7,100
+ARENE-0161,journalier,B-XRP risque 2% en=14;sn=50;pb=5,100
+ARENE-0162,journalier,B-XRP risque 2% en=14;sn=50;pb=7,100
+ARENE-0163,journalier,"C-XRP risque 2% ch=(10,20);mix=1.0",100
+ARENE-0164,journalier,"C-XRP risque 2% ch=(10,20);mix=0.5",100
+ARENE-0165,journalier,"C-XRP risque 2% ch=(20,30);mix=1.0",100
+ARENE-0166,journalier,"C-XRP risque 2% ch=(20,30);mix=0.5",100
+ARENE-0167,journalier,"C-XRP risque 2% ch=(20,55);mix=1.0",100
+ARENE-0168,journalier,"C-XRP risque 2% ch=(20,55);mix=0.5",100
+ARENE-0169,journalier,"C-XRP risque 2% ch=(30,60);mix=1.0",100
+ARENE-0170,journalier,"C-XRP risque 2% ch=(30,60);mix=0.5",100
+ARENE-0171,journalier,"D-XRP risque 2% hs=(3,7,14)",100
+ARENE-0172,journalier,"D-XRP risque 2% hs=(7,14,28)",100
+ARENE-0173,journalier,"D-XRP risque 2% hs=(14,28,56)",100
+ARENE-0174,journalier,"D-XRP risque 2% hs=(7,14)",100
+ARENE-0175,journalier,R-XRP risque 2% w=10;z0=1.5,100
+ARENE-0176,journalier,R-XRP risque 2% w=10;z0=2.0,100
+ARENE-0177,journalier,R-XRP risque 2% w=10;z0=2.5,100
+ARENE-0178,journalier,R-XRP risque 2% w=20;z0=1.5,100
+ARENE-0179,journalier,R-XRP risque 2% w=20;z0=2.0,100
+ARENE-0180,journalier,R-XRP risque 2% w=20;z0=2.5,100
+ARENE-0181,journalier,R-XRP risque 2% w=30;z0=1.5,100
+ARENE-0182,journalier,R-XRP risque 2% w=30;z0=2.0,100
+ARENE-0183,journalier,R-XRP risque 2% w=30;z0=2.5,100
+ARENE-0184,journalier,X-XRP risque 2% lb=7;k=1,100
+ARENE-0185,journalier,X-XRP risque 2% lb=7;k=2,100
+ARENE-0186,journalier,X-XRP risque 2% lb=14;k=1,100
+ARENE-0187,journalier,X-XRP risque 2% lb=14;k=2,100
+ARENE-0188,journalier,X-XRP risque 2% lb=28;k=1,100
+ARENE-0189,journalier,X-XRP risque 2% lb=28;k=2,100
+ARENE-0190,journalier,A-BNB risque 2% en=8;ka=1.0;tr=3,100
+ARENE-0191,journalier,A-BNB risque 2% en=8;ka=1.0;tr=5,100
+ARENE-0192,journalier,A-BNB risque 2% en=8;ka=1.5;tr=3,100
+ARENE-0193,journalier,A-BNB risque 2% en=8;ka=1.5;tr=5,100
+ARENE-0194,journalier,A-BNB risque 2% en=8;ka=2.0;tr=3,100
+ARENE-0195,journalier,A-BNB risque 2% en=8;ka=2.0;tr=5,100
+ARENE-0196,journalier,A-BNB risque 2% en=10;ka=1.0;tr=3,100
+ARENE-0197,journalier,A-BNB risque 2% en=10;ka=1.0;tr=5,100
+ARENE-0198,journalier,A-BNB risque 2% en=10;ka=1.5;tr=3,100
+ARENE-0199,journalier,A-BNB risque 2% en=10;ka=1.5;tr=5,100
+ARENE-0200,journalier,A-BNB risque 2% en=10;ka=2.0;tr=3,100
+ARENE-0201,journalier,A-BNB risque 2% en=10;ka=2.0;tr=5,100
+ARENE-0202,journalier,A-BNB risque 2% en=14;ka=1.0;tr=3,100
+ARENE-0203,journalier,A-BNB risque 2% en=14;ka=1.0;tr=5,100
+ARENE-0204,journalier,A-BNB risque 2% en=14;ka=1.5;tr=3,100
+ARENE-0205,journalier,A-BNB risque 2% en=14;ka=1.5;tr=5,100
+ARENE-0206,journalier,A-BNB risque 2% en=14;ka=2.0;tr=3,100
+ARENE-0207,journalier,A-BNB risque 2% en=14;ka=2.0;tr=5,100
+ARENE-0208,journalier,B-BNB risque 2% en=8;sn=20;pb=5,100
+ARENE-0209,journalier,B-BNB risque 2% en=8;sn=20;pb=7,100
+ARENE-0210,journalier,B-BNB risque 2% en=8;sn=30;pb=5,100
+ARENE-0211,journalier,B-BNB risque 2% en=8;sn=30;pb=7,100
+ARENE-0212,journalier,B-BNB risque 2% en=8;sn=50;pb=5,100
+ARENE-0213,journalier,B-BNB risque 2% en=8;sn=50;pb=7,100
+ARENE-0214,journalier,B-BNB risque 2% en=10;sn=20;pb=5,100
+ARENE-0215,journalier,B-BNB risque 2% en=10;sn=20;pb=7,100
+ARENE-0216,journalier,B-BNB risque 2% en=10;sn=30;pb=5,100
+ARENE-0217,journalier,B-BNB risque 2% en=10;sn=30;pb=7,100
+ARENE-0218,journalier,B-BNB risque 2% en=10;sn=50;pb=5,100
+ARENE-0219,journalier,B-BNB risque 2% en=10;sn=50;pb=7,100
+ARENE-0220,journalier,B-BNB risque 2% en=14;sn=20;pb=5,100
+ARENE-0221,journalier,B-BNB risque 2% en=14;sn=20;pb=7,100
+ARENE-0222,journalier,B-BNB risque 2% en=14;sn=30;pb=5,100
+ARENE-0223,journalier,B-BNB risque 2% en=14;sn=30;pb=7,100
+ARENE-0224,journalier,B-BNB risque 2% en=14;sn=50;pb=5,100
+ARENE-0225,journalier,B-BNB risque 2% en=14;sn=50;pb=7,100
+ARENE-0226,journalier,"C-BNB risque 2% ch=(10,20);mix=1.0",100
+ARENE-0227,journalier,"C-BNB risque 2% ch=(10,20);mix=0.5",100
+ARENE-0228,journalier,"C-BNB risque 2% ch=(20,30);mix=1.0",100
+ARENE-0229,journalier,"C-BNB risque 2% ch=(20,30);mix=0.5",100
+ARENE-0230,journalier,"C-BNB risque 2% ch=(20,55);mix=1.0",100
+ARENE-0231,journalier,"C-BNB risque 2% ch=(20,55);mix=0.5",100
+ARENE-0232,journalier,"C-BNB risque 2% ch=(30,60);mix=1.0",100
+ARENE-0233,journalier,"C-BNB risque 2% ch=(30,60);mix=0.5",100
+ARENE-0234,journalier,"D-BNB risque 2% hs=(3,7,14)",100
+ARENE-0235,journalier,"D-BNB risque 2% hs=(7,14,28)",100
+ARENE-0236,journalier,"D-BNB risque 2% hs=(14,28,56)",100
+ARENE-0237,journalier,"D-BNB risque 2% hs=(7,14)",100
+ARENE-0238,journalier,R-BNB risque 2% w=10;z0=1.5,100
+ARENE-0239,journalier,R-BNB risque 2% w=10;z0=2.0,100
+ARENE-0240,journalier,R-BNB risque 2% w=10;z0=2.5,100
+ARENE-0241,journalier,R-BNB risque 2% w=20;z0=1.5,100
+ARENE-0242,journalier,R-BNB risque 2% w=20;z0=2.0,100
+ARENE-0243,journalier,R-BNB risque 2% w=20;z0=2.5,100
+ARENE-0244,journalier,R-BNB risque 2% w=30;z0=1.5,100
+ARENE-0245,journalier,R-BNB risque 2% w=30;z0=2.0,100
+ARENE-0246,journalier,R-BNB risque 2% w=30;z0=2.5,100
+ARENE-0247,journalier,X-BNB risque 2% lb=7;k=1,100
+ARENE-0248,journalier,X-BNB risque 2% lb=7;k=2,100
+ARENE-0249,journalier,X-BNB risque 2% lb=14;k=1,100
+ARENE-0250,journalier,X-BNB risque 2% lb=14;k=2,100
+ARENE-0251,journalier,X-BNB risque 2% lb=28;k=1,100
+ARENE-0252,journalier,X-BNB risque 2% lb=28;k=2,100
+ARENE-0253,journalier,A-SOL risque 2% en=8;ka=1.0;tr=3,100
+ARENE-0254,journalier,A-SOL risque 2% en=8;ka=1.0;tr=5,100
+ARENE-0255,journalier,A-SOL risque 2% en=8;ka=1.5;tr=3,100
+ARENE-0256,journalier,A-SOL risque 2% en=8;ka=1.5;tr=5,100
+ARENE-0257,journalier,A-SOL risque 2% en=8;ka=2.0;tr=3,100
+ARENE-0258,journalier,A-SOL risque 2% en=8;ka=2.0;tr=5,100
+ARENE-0259,journalier,A-SOL risque 2% en=10;ka=1.0;tr=3,100
+ARENE-0260,journalier,A-SOL risque 2% en=10;ka=1.0;tr=5,100
+ARENE-0261,journalier,A-SOL risque 2% en=10;ka=1.5;tr=3,100
+ARENE-0262,journalier,A-SOL risque 2% en=10;ka=1.5;tr=5,100
+ARENE-0263,journalier,A-SOL risque 2% en=10;ka=2.0;tr=3,100
+ARENE-0264,journalier,A-SOL risque 2% en=10;ka=2.0;tr=5,100
+ARENE-0265,journalier,A-SOL risque 2% en=14;ka=1.0;tr=3,100
+ARENE-0266,journalier,A-SOL risque 2% en=14;ka=1.0;tr=5,100
+ARENE-0267,journalier,A-SOL risque 2% en=14;ka=1.5;tr=3,100
+ARENE-0268,journalier,A-SOL risque 2% en=14;ka=1.5;tr=5,100
+ARENE-0269,journalier,A-SOL risque 2% en=14;ka=2.0;tr=3,100
+ARENE-0270,journalier,A-SOL risque 2% en=14;ka=2.0;tr=5,100
+ARENE-0271,journalier,B-SOL risque 2% en=8;sn=20;pb=5,100
+ARENE-0272,journalier,B-SOL risque 2% en=8;sn=20;pb=7,100
+ARENE-0273,journalier,B-SOL risque 2% en=8;sn=30;pb=5,100
+ARENE-0274,journalier,B-SOL risque 2% en=8;sn=30;pb=7,100
+ARENE-0275,journalier,B-SOL risque 2% en=8;sn=50;pb=5,100
+ARENE-0276,journalier,B-SOL risque 2% en=8;sn=50;pb=7,100
+ARENE-0277,journalier,B-SOL risque 2% en=10;sn=20;pb=5,100
+ARENE-0278,journalier,B-SOL risque 2% en=10;sn=20;pb=7,100
+ARENE-0279,journalier,B-SOL risque 2% en=10;sn=30;pb=5,100
+ARENE-0280,journalier,B-SOL risque 2% en=10;sn=30;pb=7,100
+ARENE-0281,journalier,B-SOL risque 2% en=10;sn=50;pb=5,100
+ARENE-0282,journalier,B-SOL risque 2% en=10;sn=50;pb=7,100
+ARENE-0283,journalier,B-SOL risque 2% en=14;sn=20;pb=5,100
+ARENE-0284,journalier,B-SOL risque 2% en=14;sn=20;pb=7,100
+ARENE-0285,journalier,B-SOL risque 2% en=14;sn=30;pb=5,100
+ARENE-0286,journalier,B-SOL risque 2% en=14;sn=30;pb=7,100
+ARENE-0287,journalier,B-SOL risque 2% en=14;sn=50;pb=5,100
+ARENE-0288,journalier,B-SOL risque 2% en=14;sn=50;pb=7,100
+ARENE-0289,journalier,"C-SOL risque 2% ch=(10,20);mix=1.0",100
+ARENE-0290,journalier,"C-SOL risque 2% ch=(10,20);mix=0.5",100
+ARENE-0291,journalier,"C-SOL risque 2% ch=(20,30);mix=1.0",100
+ARENE-0292,journalier,"C-SOL risque 2% ch=(20,30);mix=0.5",100
+ARENE-0293,journalier,"C-SOL risque 2% ch=(20,55);mix=1.0",100
+ARENE-0294,journalier,"C-SOL risque 2% ch=(20,55);mix=0.5",100
+ARENE-0295,journalier,"C-SOL risque 2% ch=(30,60);mix=1.0",100
+ARENE-0296,journalier,"C-SOL risque 2% ch=(30,60);mix=0.5",100
+ARENE-0297,journalier,"D-SOL risque 2% hs=(3,7,14)",100
+ARENE-0298,journalier,"D-SOL risque 2% hs=(7,14,28)",100
+ARENE-0299,journalier,"D-SOL risque 2% hs=(14,28,56)",100
+ARENE-0300,journalier,"D-SOL risque 2% hs=(7,14)",100
+ARENE-0301,journalier,R-SOL risque 2% w=10;z0=1.5,100
+ARENE-0302,journalier,R-SOL risque 2% w=10;z0=2.0,100
+ARENE-0303,journalier,R-SOL risque 2% w=10;z0=2.5,100
+ARENE-0304,journalier,R-SOL risque 2% w=20;z0=1.5,100
+ARENE-0305,journalier,R-SOL risque 2% w=20;z0=2.0,100
+ARENE-0306,journalier,R-SOL risque 2% w=20;z0=2.5,100
+ARENE-0307,journalier,R-SOL risque 2% w=30;z0=1.5,100
+ARENE-0308,journalier,R-SOL risque 2% w=30;z0=2.0,100
+ARENE-0309,journalier,R-SOL risque 2% w=30;z0=2.5,100
+ARENE-0310,journalier,X-SOL risque 2% lb=7;k=1,100
+ARENE-0311,journalier,X-SOL risque 2% lb=7;k=2,100
+ARENE-0312,journalier,X-SOL risque 2% lb=14;k=1,100
+ARENE-0313,journalier,X-SOL risque 2% lb=14;k=2,100
+ARENE-0314,journalier,X-SOL risque 2% lb=28;k=1,100
+ARENE-0315,journalier,X-SOL risque 2% lb=28;k=2,100
+ARENE-0316,journalier,A-BTC risque 3% en=8;ka=1.0;tr=3,100
+ARENE-0317,journalier,A-BTC risque 3% en=8;ka=1.0;tr=5,100
+ARENE-0318,journalier,A-BTC risque 3% en=8;ka=1.5;tr=3,100
+ARENE-0319,journalier,A-BTC risque 3% en=8;ka=1.5;tr=5,100
+ARENE-0320,journalier,A-BTC risque 3% en=8;ka=2.0;tr=3,100
+ARENE-0321,journalier,A-BTC risque 3% en=8;ka=2.0;tr=5,100
+ARENE-0322,journalier,A-BTC risque 3% en=10;ka=1.0;tr=3,100
+ARENE-0323,journalier,A-BTC risque 3% en=10;ka=1.0;tr=5,100
+ARENE-0324,journalier,A-BTC risque 3% en=10;ka=1.5;tr=3,100
+ARENE-0325,journalier,A-BTC risque 3% en=10;ka=1.5;tr=5,100
+ARENE-0326,journalier,A-BTC risque 3% en=10;ka=2.0;tr=3,100
+ARENE-0327,journalier,A-BTC risque 3% en=10;ka=2.0;tr=5,100
+ARENE-0328,journalier,A-BTC risque 3% en=14;ka=1.0;tr=3,100
+ARENE-0329,journalier,A-BTC risque 3% en=14;ka=1.0;tr=5,100
+ARENE-0330,journalier,A-BTC risque 3% en=14;ka=1.5;tr=3,100
+ARENE-0331,journalier,A-BTC risque 3% en=14;ka=1.5;tr=5,100
+ARENE-0332,journalier,A-BTC risque 3% en=14;ka=2.0;tr=3,100
+ARENE-0333,journalier,A-BTC risque 3% en=14;ka=2.0;tr=5,100
+ARENE-0334,journalier,B-BTC risque 3% en=8;sn=20;pb=5,100
+ARENE-0335,journalier,B-BTC risque 3% en=8;sn=20;pb=7,100
+ARENE-0336,journalier,B-BTC risque 3% en=8;sn=30;pb=5,100
+ARENE-0337,journalier,B-BTC risque 3% en=8;sn=30;pb=7,100
+ARENE-0338,journalier,B-BTC risque 3% en=8;sn=50;pb=5,100
+ARENE-0339,journalier,B-BTC risque 3% en=8;sn=50;pb=7,100
+ARENE-0340,journalier,B-BTC risque 3% en=10;sn=20;pb=5,100
+ARENE-0341,journalier,B-BTC risque 3% en=10;sn=20;pb=7,100
+ARENE-0342,journalier,B-BTC risque 3% en=10;sn=30;pb=5,100
+ARENE-0343,journalier,B-BTC risque 3% en=10;sn=30;pb=7,100
+ARENE-0344,journalier,B-BTC risque 3% en=10;sn=50;pb=5,100
+ARENE-0345,journalier,B-BTC risque 3% en=10;sn=50;pb=7,100
+ARENE-0346,journalier,B-BTC risque 3% en=14;sn=20;pb=5,100
+ARENE-0347,journalier,B-BTC risque 3% en=14;sn=20;pb=7,100
+ARENE-0348,journalier,B-BTC risque 3% en=14;sn=30;pb=5,100
+ARENE-0349,journalier,B-BTC risque 3% en=14;sn=30;pb=7,100
+ARENE-0350,journalier,B-BTC risque 3% en=14;sn=50;pb=5,100
+ARENE-0351,journalier,B-BTC risque 3% en=14;sn=50;pb=7,100
+ARENE-0352,journalier,"C-BTC risque 3% ch=(10,20);mix=1.0",100
+ARENE-0353,journalier,"C-BTC risque 3% ch=(10,20);mix=0.5",100
+ARENE-0354,journalier,"C-BTC risque 3% ch=(20,30);mix=1.0",100
+ARENE-0355,journalier,"C-BTC risque 3% ch=(20,30);mix=0.5",100
+ARENE-0356,journalier,"C-BTC risque 3% ch=(20,55);mix=1.0",100
+ARENE-0357,journalier,"C-BTC risque 3% ch=(20,55);mix=0.5",100
+ARENE-0358,journalier,"C-BTC risque 3% ch=(30,60);mix=1.0",100
+ARENE-0359,journalier,"C-BTC risque 3% ch=(30,60);mix=0.5",100
+ARENE-0360,journalier,"D-BTC risque 3% hs=(3,7,14)",100
+ARENE-0361,journalier,"D-BTC risque 3% hs=(7,14,28)",100
+ARENE-0362,journalier,"D-BTC risque 3% hs=(14,28,56)",100
+ARENE-0363,journalier,"D-BTC risque 3% hs=(7,14)",100
+ARENE-0364,journalier,R-BTC risque 3% w=10;z0=1.5,100
+ARENE-0365,journalier,R-BTC risque 3% w=10;z0=2.0,100
+ARENE-0366,journalier,R-BTC risque 3% w=10;z0=2.5,100
+ARENE-0367,journalier,R-BTC risque 3% w=20;z0=1.5,100
+ARENE-0368,journalier,R-BTC risque 3% w=20;z0=2.0,100
+ARENE-0369,journalier,R-BTC risque 3% w=20;z0=2.5,100
+ARENE-0370,journalier,R-BTC risque 3% w=30;z0=1.5,100
+ARENE-0371,journalier,R-BTC risque 3% w=30;z0=2.0,100
+ARENE-0372,journalier,R-BTC risque 3% w=30;z0=2.5,100
+ARENE-0373,journalier,X-BTC risque 3% lb=7;k=1,100
+ARENE-0374,journalier,X-BTC risque 3% lb=7;k=2,100
+ARENE-0375,journalier,X-BTC risque 3% lb=14;k=1,100
+ARENE-0376,journalier,X-BTC risque 3% lb=14;k=2,100
+ARENE-0377,journalier,X-BTC risque 3% lb=28;k=1,100
+ARENE-0378,journalier,X-BTC risque 3% lb=28;k=2,100
+ARENE-0379,journalier,A-ETH risque 3% en=8;ka=1.0;tr=3,100
+ARENE-0380,journalier,A-ETH risque 3% en=8;ka=1.0;tr=5,100
+ARENE-0381,journalier,A-ETH risque 3% en=8;ka=1.5;tr=3,100
+ARENE-0382,journalier,A-ETH risque 3% en=8;ka=1.5;tr=5,100
+ARENE-0383,journalier,A-ETH risque 3% en=8;ka=2.0;tr=3,100
+ARENE-0384,journalier,A-ETH risque 3% en=8;ka=2.0;tr=5,100
+ARENE-0385,journalier,A-ETH risque 3% en=10;ka=1.0;tr=3,100
+ARENE-0386,journalier,A-ETH risque 3% en=10;ka=1.0;tr=5,100
+ARENE-0387,journalier,A-ETH risque 3% en=10;ka=1.5;tr=3,100
+ARENE-0388,journalier,A-ETH risque 3% en=10;ka=1.5;tr=5,100
+ARENE-0389,journalier,A-ETH risque 3% en=10;ka=2.0;tr=3,100
+ARENE-0390,journalier,A-ETH risque 3% en=10;ka=2.0;tr=5,100
+ARENE-0391,journalier,A-ETH risque 3% en=14;ka=1.0;tr=3,100
+ARENE-0392,journalier,A-ETH risque 3% en=14;ka=1.0;tr=5,100
+ARENE-0393,journalier,A-ETH risque 3% en=14;ka=1.5;tr=3,100
+ARENE-0394,journalier,A-ETH risque 3% en=14;ka=1.5;tr=5,100
+ARENE-0395,journalier,A-ETH risque 3% en=14;ka=2.0;tr=3,100
+ARENE-0396,journalier,A-ETH risque 3% en=14;ka=2.0;tr=5,100
+ARENE-0397,journalier,B-ETH risque 3% en=8;sn=20;pb=5,100
+ARENE-0398,journalier,B-ETH risque 3% en=8;sn=20;pb=7,100
+ARENE-0399,journalier,B-ETH risque 3% en=8;sn=30;pb=5,100
+ARENE-0400,journalier,B-ETH risque 3% en=8;sn=30;pb=7,100
+ARENE-0401,journalier,B-ETH risque 3% en=8;sn=50;pb=5,100
+ARENE-0402,journalier,B-ETH risque 3% en=8;sn=50;pb=7,100
+ARENE-0403,journalier,B-ETH risque 3% en=10;sn=20;pb=5,100
+ARENE-0404,journalier,B-ETH risque 3% en=10;sn=20;pb=7,100
+ARENE-0405,journalier,B-ETH risque 3% en=10;sn=30;pb=5,100
+ARENE-0406,journalier,B-ETH risque 3% en=10;sn=30;pb=7,100
+ARENE-0407,journalier,B-ETH risque 3% en=10;sn=50;pb=5,100
+ARENE-0408,journalier,B-ETH risque 3% en=10;sn=50;pb=7,100
+ARENE-0409,journalier,B-ETH risque 3% en=14;sn=20;pb=5,100
+ARENE-0410,journalier,B-ETH risque 3% en=14;sn=20;pb=7,100
+ARENE-0411,journalier,B-ETH risque 3% en=14;sn=30;pb=5,100
+ARENE-0412,journalier,B-ETH risque 3% en=14;sn=30;pb=7,100
+ARENE-0413,journalier,B-ETH risque 3% en=14;sn=50;pb=5,100
+ARENE-0414,journalier,B-ETH risque 3% en=14;sn=50;pb=7,100
+ARENE-0415,journalier,"C-ETH risque 3% ch=(10,20);mix=1.0",100
+ARENE-0416,journalier,"C-ETH risque 3% ch=(10,20);mix=0.5",100
+ARENE-0417,journalier,"C-ETH risque 3% ch=(20,30);mix=1.0",100
+ARENE-0418,journalier,"C-ETH risque 3% ch=(20,30);mix=0.5",100
+ARENE-0419,journalier,"C-ETH risque 3% ch=(20,55);mix=1.0",100
+ARENE-0420,journalier,"C-ETH risque 3% ch=(20,55);mix=0.5",100
+ARENE-0421,journalier,"C-ETH risque 3% ch=(30,60);mix=1.0",100
+ARENE-0422,journalier,"C-ETH risque 3% ch=(30,60);mix=0.5",100
+ARENE-0423,journalier,"D-ETH risque 3% hs=(3,7,14)",100
+ARENE-0424,journalier,"D-ETH risque 3% hs=(7,14,28)",100
+ARENE-0425,journalier,"D-ETH risque 3% hs=(14,28,56)",100
+ARENE-0426,journalier,"D-ETH risque 3% hs=(7,14)",100
+ARENE-0427,journalier,R-ETH risque 3% w=10;z0=1.5,100
+ARENE-0428,journalier,R-ETH risque 3% w=10;z0=2.0,100
+ARENE-0429,journalier,R-ETH risque 3% w=10;z0=2.5,100
+ARENE-0430,journalier,R-ETH risque 3% w=20;z0=1.5,100
+ARENE-0431,journalier,R-ETH risque 3% w=20;z0=2.0,100
+ARENE-0432,journalier,R-ETH risque 3% w=20;z0=2.5,100
+ARENE-0433,journalier,R-ETH risque 3% w=30;z0=1.5,100
+ARENE-0434,journalier,R-ETH risque 3% w=30;z0=2.0,100
+ARENE-0435,journalier,R-ETH risque 3% w=30;z0=2.5,100
+ARENE-0436,journalier,X-ETH risque 3% lb=7;k=1,100
+ARENE-0437,journalier,X-ETH risque 3% lb=7;k=2,100
+ARENE-0438,journalier,X-ETH risque 3% lb=14;k=1,100
+ARENE-0439,journalier,X-ETH risque 3% lb=14;k=2,100
+ARENE-0440,journalier,X-ETH risque 3% lb=28;k=1,100
+ARENE-0441,journalier,X-ETH risque 3% lb=28;k=2,100
+ARENE-0442,journalier,A-XRP risque 3% en=8;ka=1.0;tr=3,100
+ARENE-0443,journalier,A-XRP risque 3% en=8;ka=1.0;tr=5,100
+ARENE-0444,journalier,A-XRP risque 3% en=8;ka=1.5;tr=3,100
+ARENE-0445,journalier,A-XRP risque 3% en=8;ka=1.5;tr=5,100
+ARENE-0446,journalier,A-XRP risque 3% en=8;ka=2.0;tr=3,100
+ARENE-0447,journalier,A-XRP risque 3% en=8;ka=2.0;tr=5,100
+ARENE-0448,journalier,A-XRP risque 3% en=10;ka=1.0;tr=3,100
+ARENE-0449,journalier,A-XRP risque 3% en=10;ka=1.0;tr=5,100
+ARENE-0450,journalier,A-XRP risque 3% en=10;ka=1.5;tr=3,100
+ARENE-0451,journalier,A-XRP risque 3% en=10;ka=1.5;tr=5,100
+ARENE-0452,journalier,A-XRP risque 3% en=10;ka=2.0;tr=3,100
+ARENE-0453,journalier,A-XRP risque 3% en=10;ka=2.0;tr=5,100
+ARENE-0454,journalier,A-XRP risque 3% en=14;ka=1.0;tr=3,100
+ARENE-0455,journalier,A-XRP risque 3% en=14;ka=1.0;tr=5,100
+ARENE-0456,journalier,A-XRP risque 3% en=14;ka=1.5;tr=3,100
+ARENE-0457,journalier,A-XRP risque 3% en=14;ka=1.5;tr=5,100
+ARENE-0458,journalier,A-XRP risque 3% en=14;ka=2.0;tr=3,100
+ARENE-0459,journalier,A-XRP risque 3% en=14;ka=2.0;tr=5,100
+ARENE-0460,journalier,B-XRP risque 3% en=8;sn=20;pb=5,100
+ARENE-0461,journalier,B-XRP risque 3% en=8;sn=20;pb=7,100
+ARENE-0462,journalier,B-XRP risque 3% en=8;sn=30;pb=5,100
+ARENE-0463,journalier,B-XRP risque 3% en=8;sn=30;pb=7,100
+ARENE-0464,journalier,B-XRP risque 3% en=8;sn=50;pb=5,100
+ARENE-0465,journalier,B-XRP risque 3% en=8;sn=50;pb=7,100
+ARENE-0466,journalier,B-XRP risque 3% en=10;sn=20;pb=5,100
+ARENE-0467,journalier,B-XRP risque 3% en=10;sn=20;pb=7,100
+ARENE-0468,journalier,B-XRP risque 3% en=10;sn=30;pb=5,100
+ARENE-0469,journalier,B-XRP risque 3% en=10;sn=30;pb=7,100
+ARENE-0470,journalier,B-XRP risque 3% en=10;sn=50;pb=5,100
+ARENE-0471,journalier,B-XRP risque 3% en=10;sn=50;pb=7,100
+ARENE-0472,journalier,B-XRP risque 3% en=14;sn=20;pb=5,100
+ARENE-0473,journalier,B-XRP risque 3% en=14;sn=20;pb=7,100
+ARENE-0474,journalier,B-XRP risque 3% en=14;sn=30;pb=5,100
+ARENE-0475,journalier,B-XRP risque 3% en=14;sn=30;pb=7,100
+ARENE-0476,journalier,B-XRP risque 3% en=14;sn=50;pb=5,100
+ARENE-0477,journalier,B-XRP risque 3% en=14;sn=50;pb=7,100
+ARENE-0478,journalier,"C-XRP risque 3% ch=(10,20);mix=1.0",100
+ARENE-0479,journalier,"C-XRP risque 3% ch=(10,20);mix=0.5",100
+ARENE-0480,journalier,"C-XRP risque 3% ch=(20,30);mix=1.0",100
+ARENE-0481,journalier,"C-XRP risque 3% ch=(20,30);mix=0.5",100
+ARENE-0482,journalier,"C-XRP risque 3% ch=(20,55);mix=1.0",100
+ARENE-0483,journalier,"C-XRP risque 3% ch=(20,55);mix=0.5",100
+ARENE-0484,journalier,"C-XRP risque 3% ch=(30,60);mix=1.0",100
+ARENE-0485,journalier,"C-XRP risque 3% ch=(30,60);mix=0.5",100
+ARENE-0486,journalier,"D-XRP risque 3% hs=(3,7,14)",100
+ARENE-0487,journalier,"D-XRP risque 3% hs=(7,14,28)",100
+ARENE-0488,journalier,"D-XRP risque 3% hs=(14,28,56)",100
+ARENE-0489,journalier,"D-XRP risque 3% hs=(7,14)",100
+ARENE-0490,journalier,R-XRP risque 3% w=10;z0=1.5,100
+ARENE-0491,journalier,R-XRP risque 3% w=10;z0=2.0,100
+ARENE-0492,journalier,R-XRP risque 3% w=10;z0=2.5,100
+ARENE-0493,journalier,R-XRP risque 3% w=20;z0=1.5,100
+ARENE-0494,journalier,R-XRP risque 3% w=20;z0=2.0,100
+ARENE-0495,journalier,R-XRP risque 3% w=20;z0=2.5,100
+ARENE-0496,journalier,R-XRP risque 3% w=30;z0=1.5,100
+ARENE-0497,journalier,R-XRP risque 3% w=30;z0=2.0,100
+ARENE-0498,journalier,R-XRP risque 3% w=30;z0=2.5,100
+ARENE-0499,journalier,X-XRP risque 3% lb=7;k=1,100
+ARENE-0500,journalier,X-XRP risque 3% lb=7;k=2,100
+ARENE-0501,journalier,X-XRP risque 3% lb=14;k=1,100
+ARENE-0502,journalier,X-XRP risque 3% lb=14;k=2,100
+ARENE-0503,journalier,X-XRP risque 3% lb=28;k=1,100
+ARENE-0504,journalier,X-XRP risque 3% lb=28;k=2,100
+ARENE-0505,journalier,A-BNB risque 3% en=8;ka=1.0;tr=3,100
+ARENE-0506,journalier,A-BNB risque 3% en=8;ka=1.0;tr=5,100
+ARENE-0507,journalier,A-BNB risque 3% en=8;ka=1.5;tr=3,100
+ARENE-0508,journalier,A-BNB risque 3% en=8;ka=1.5;tr=5,100
+ARENE-0509,journalier,A-BNB risque 3% en=8;ka=2.0;tr=3,100
+ARENE-0510,journalier,A-BNB risque 3% en=8;ka=2.0;tr=5,100
+ARENE-0511,journalier,A-BNB risque 3% en=10;ka=1.0;tr=3,100
+ARENE-0512,journalier,A-BNB risque 3% en=10;ka=1.0;tr=5,100
+ARENE-0513,journalier,A-BNB risque 3% en=10;ka=1.5;tr=3,100
+ARENE-0514,journalier,A-BNB risque 3% en=10;ka=1.5;tr=5,100
+ARENE-0515,journalier,A-BNB risque 3% en=10;ka=2.0;tr=3,100
+ARENE-0516,journalier,A-BNB risque 3% en=10;ka=2.0;tr=5,100
+ARENE-M01,meme,ratio>=1.0 objectif x1.5 vend 50% stop aucun,100
+ARENE-M02,meme,ratio>=1.0 objectif x1.5 vend 50% stop -30%,100
+ARENE-M03,meme,ratio>=1.0 objectif x1.5 vend 90% stop aucun,100
+ARENE-M04,meme,ratio>=1.0 objectif x1.5 vend 90% stop -30%,100
+ARENE-M05,meme,ratio>=1.0 objectif x2 vend 50% stop aucun,100
+ARENE-M06,meme,ratio>=1.0 objectif x2 vend 50% stop -30%,100
+ARENE-M07,meme,ratio>=1.0 objectif x2 vend 90% stop aucun,100
+ARENE-M08,meme,ratio>=1.0 objectif x2 vend 90% stop -30%,100
+ARENE-M09,meme,ratio>=1.0 objectif x3 vend 50% stop aucun,100
+ARENE-M10,meme,ratio>=1.0 objectif x3 vend 50% stop -30%,100
+ARENE-M11,meme,ratio>=1.0 objectif x3 vend 90% stop aucun,100
+ARENE-M12,meme,ratio>=1.0 objectif x3 vend 90% stop -30%,100
+ARENE-M13,meme,ratio>=1.0 objectif x5 vend 50% stop aucun,100
+ARENE-M14,meme,ratio>=1.0 objectif x5 vend 50% stop -30%,100
+ARENE-M15,meme,ratio>=1.0 objectif x5 vend 90% stop aucun,100
+ARENE-M16,meme,ratio>=1.0 objectif x5 vend 90% stop -30%,100
+ARENE-M17,meme,ratio>=1.5 objectif x1.5 vend 50% stop aucun,100
+ARENE-M18,meme,ratio>=1.5 objectif x1.5 vend 50% stop -30%,100
+ARENE-M19,meme,ratio>=1.5 objectif x1.5 vend 90% stop aucun,100
+ARENE-M20,meme,ratio>=1.5 objectif x1.5 vend 90% stop -30%,100
+ARENE-M21,meme,ratio>=1.5 objectif x2 vend 50% stop aucun,100
+ARENE-M22,meme,ratio>=1.5 objectif x2 vend 50% stop -30%,100
+ARENE-M23,meme,ratio>=1.5 objectif x2 vend 90% stop aucun,100
+ARENE-M24,meme,ratio>=1.5 objectif x2 vend 90% stop -30%,100
+ARENE-M25,meme,ratio>=1.5 objectif x3 vend 50% stop aucun,100
+ARENE-M26,meme,ratio>=1.5 objectif x3 vend 50% stop -30%,100
+ARENE-M27,meme,ratio>=1.5 objectif x3 vend 90% stop aucun,100
+ARENE-M28,meme,ratio>=1.5 objectif x3 vend 90% stop -30%,100
+ARENE-M29,meme,ratio>=1.5 objectif x5 vend 50% stop aucun,100
+ARENE-M30,meme,ratio>=1.5 objectif x5 vend 50% stop -30%,100
+ARENE-M31,meme,ratio>=1.5 objectif x5 vend 90% stop aucun,100
+ARENE-M32,meme,ratio>=1.5 objectif x5 vend 90% stop -30%,100
+ARENE-M33,meme,ratio>=2.0 objectif x1.5 vend 50% stop aucun,100
+ARENE-M34,meme,ratio>=2.0 objectif x1.5 vend 50% stop -30%,100
+ARENE-M35,meme,ratio>=2.0 objectif x1.5 vend 90% stop aucun,100
+ARENE-M36,meme,ratio>=2.0 objectif x1.5 vend 90% stop -30%,100
+ARENE-M37,meme,ratio>=2.0 objectif x2 vend 50% stop aucun,100
+ARENE-M38,meme,ratio>=2.0 objectif x2 vend 50% stop -30%,100
+ARENE-M39,meme,ratio>=2.0 objectif x2 vend 90% stop aucun,100
+ARENE-M40,meme,ratio>=2.0 objectif x2 vend 90% stop -30%,100
+ARENE-M41,meme,ratio>=2.0 objectif x3 vend 50% stop aucun,100
+ARENE-M42,meme,ratio>=2.0 objectif x3 vend 50% stop -30%,100
+ARENE-M43,meme,ratio>=2.0 objectif x3 vend 90% stop aucun,100
+ARENE-M44,meme,ratio>=2.0 objectif x3 vend 90% stop -30%,100
+ARENE-M45,meme,ratio>=2.0 objectif x5 vend 50% stop aucun,100
+ARENE-M46,meme,ratio>=2.0 objectif x5 vend 50% stop -30%,100
+ARENE-M47,meme,ratio>=2.0 objectif x5 vend 90% stop aucun,100
+ARENE-M48,meme,ratio>=2.0 objectif x5 vend 90% stop -30%,100
+ARENE-M49,meme,ratio>=3.0 objectif x1.5 vend 50% stop aucun,100
+ARENE-M50,meme,ratio>=3.0 objectif x1.5 vend 50% stop -30%,100
+ARENE-M51,meme,ratio>=3.0 objectif x1.5 vend 90% stop aucun,100
+ARENE-M52,meme,ratio>=3.0 objectif x1.5 vend 90% stop -30%,100
+ARENE-M53,meme,ratio>=3.0 objectif x2 vend 50% stop aucun,100
+ARENE-M54,meme,ratio>=3.0 objectif x2 vend 50% stop -30%,100
+ARENE-M55,meme,ratio>=3.0 objectif x2 vend 90% stop aucun,100
+ARENE-M56,meme,ratio>=3.0 objectif x2 vend 90% stop -30%,100
+ARENE-M57,meme,ratio>=3.0 objectif x3 vend 50% stop aucun,100
+ARENE-M58,meme,ratio>=3.0 objectif x3 vend 50% stop -30%,100
+ARENE-M59,meme,ratio>=3.0 objectif x3 vend 90% stop aucun,100
+ARENE-M60,meme,ratio>=3.0 objectif x3 vend 90% stop -30%,100
+ARENE-M61,meme,ratio>=3.0 objectif x5 vend 50% stop aucun,100
+ARENE-M62,meme,ratio>=3.0 objectif x5 vend 50% stop -30%,100
+ARENE-M63,meme,ratio>=3.0 objectif x5 vend 90% stop aucun,100
+ARENE-M64,meme,ratio>=3.0 objectif x5 vend 90% stop -30%,100
