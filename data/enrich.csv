@@ -1,0 +1,13 @@
+ts,address,token,attempt,rc_status,rc_score,rc_risks,rc_mint_auth,rc_freeze_auth,rc_top1_pct,rc_top10_pct,rc_lp_locked_pct,rc_creator_bal,rc_rugged,gp_status,gp_mintable,gp_freezable,gp_transfer_fee,gp_trusted,gp_holder_count
+2026-10-22T13:11:28Z,DGnuqgF2nyRyG4nYo9Lz6xcgDzy1s59qspHc7ywMJQ5e,Bfs5heyGpXMgCYobWhEZiuoJThLTJoPBSeinZdFzpump,1,ok,79.0,Creator history of rugged tokens|Single holder ownership|High holder concentration,0,0,51.378621907032,100.0,,0.0,0,ok,0,0,,0,
+2026-10-22T13:11:28Z,BXbHr6GxkRe7AwcyZaGA2P9ZVmKvQMTb6q8GxSkRPJ5N,41P9bo73w9HtrbUJnS9cWbtB6EoYJdRLCC1fKNwTpump,1,ok,1.0,,0,0,18.85674839005454,38.5172,,0.0,0,ok,0,0,,0,
+2026-10-22T13:11:28Z,4RmxrnpULgw6XL2aLndXboQuSMpYpdi2S9mAKZqGw5qM,7E6YN7n5H5jzyJaQgTagYLc8V6vHMEoX2gpNjsw7pump,1,ok,1.0,,0,0,99.83670454609481,100.0,,0.0,0,ok,0,0,,0,
+2026-10-22T13:11:28Z,CGDD5nffZXrt9jYy71zprXoikqmRgkRjD6EpA2u5k6LG,1Uzz2FqUuhXnik4mvperzYpZVfA8fwh9Gfq156Epump,1,ok,1.0,,0,0,99.1760762626095,100.0,,0.0,0,ok,0,0,,0,
+2026-10-22T13:11:28Z,EypKNAuLtKvBcrmQh3MybRAEig6sguA2p7sjDuKptmVk,8wE7Xiga8Ev8QetKAWPB6NGXezJpado7cJ5D5LmTpump,1,ok,1.0,,0,0,98.2302358566913,100.0,,4326755789632.0,0,ok,0,0,,0,
+2026-10-22T13:11:28Z,Bwzrpx7DRx7bAqAfF8La7yqvVfkuVyAQTpG5d4mB4mfh,DFF8rwEwpDv5WFTY2xuUXMFYMLwHmyezUFQpn7Utpump,1,ok,1.0,,0,0,100.0,100.0,,0.0,0,ok,0,0,,0,
+2026-10-22T13:11:28Z,2SCbxycwWzWa9nj6zhv4NYDU6WcdBrUYyuNhhrrxVSzA,13LUuZMmRk5B3aKSHXAPcHCkmjcDPeDFGnu4k8FVpump,1,ok,33.0,High holder correlation,0,0,13.490066575922931,20.7125,,0.0,0,ok,0,0,,0,
+2026-10-22T13:11:28Z,J47KZk34CwAxFXvvKTR2wq63NrbNjTu5yBzqLA2yJ8mY,J41KtTKatkSVsHhikTDFYjLpSRbcvpZwTMDnN8pzpump,1,ok,1.0,,0,0,99.9997159822882,100.0,,0.0,0,ok,0,0,,0,
+2026-10-22T13:11:28Z,CPrJHd96zsZfmVYh9nW9c8s4dvSL8U4vLnVYyqSCgBYQ,3VweusobszGSpK9GBnuMvL3nEechYjgGQu62fSv8pump,1,ok,1.0,,0,0,100.0,100.0,,0.0,0,ok,0,0,,0,
+2026-10-22T13:11:28Z,936phxZh1zHKWkKtwSARDMFcuEC18WjMu3Uds2fmkTDE,6NcS41Q5ywSc9f4JD8yqg8hSdcoNcSV6K7kMXZvjpump,1,ok,1.0,,0,0,96.01759678153991,99.8406,,0.0,0,ok,0,0,,0,
+2026-10-22T13:11:28Z,QYRRinnjXyXQd1hrEga8HWYgjpPs4ZCtPhqyQWyTuXT,BamAsqG4ey8RE5a4kQq3okJw3oX5o2U6accWG4oupump,1,ok,1.0,,0,0,20.003607229477318,32.9538,,0.0,0,ok,0,0,,0,
+2026-10-22T13:11:28Z,7yoovsCHuWg6MAcABLwnZJGihZqqRSuivBzJxeAtRe44,Nf3523xLFFQ2MuMAfucgdLowZvxCq4RTyApaL4J8VDq,1,ok,48.0,Single holder ownership|Low Liquidity|High holder concentration,0,0,47.2941506528216,96.835,,0.0,0,ok,0,0,,0,
