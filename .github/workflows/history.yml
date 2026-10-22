@@ -1,0 +1,25 @@
+name: history
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 3 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: history
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 history/fetch.py | tee history/LOG.txt
+      - run: |
+          git config user.name "meme-scanner"
+          git config user.email "meme-scanner@users.noreply.github.com"
+          git add history
+          git diff --cached --quiet || (git commit -q -m "historique $(date -u +%FT%TZ)" && git pull --rebase -q && git push -q)
