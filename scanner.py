@@ -34,7 +34,9 @@ SEEN_FIELDS = FIELDS + ["token"]
 FOLLOW_FIELDS = FIELDS + ["horizon"]
 ENRICH_FIELDS = ["ts", "address", "token", "attempt", "rc_status", "rc_score", "rc_risks", "rc_mint_auth",
                  "rc_freeze_auth", "rc_top1_pct", "rc_top10_pct", "rc_lp_locked_pct", "rc_creator_bal",
-                 "rc_rugged", "rc_creator_rugged", "rc_danger_n", "rc_insider_n", "rc_holders_n",
+                 "rc_rugged", "rc_creator_rugged", "rc_danger_n", "rc_insider_n", "rc_holders_n", "rc_top1_ex_pool",
+                 "rc_top10_ex_pool", "rc_total_holders", "rc_market_type", "rc_launchpad", "rc_insider_graph",
+                 "rc_creator_tokens_n",
                  "gp_status", "gp_mintable", "gp_freezable", "gp_transfer_fee", "gp_trusted", "gp_non_transferable",
                  "gp_closable", "gp_balance_mutable", "gp_metadata_mutable"]
 
@@ -149,6 +151,28 @@ def status_of(x):
     return "" if x is None else x
 
 
+def small(x, n=40):
+    """Valeur courte et lisible pour un champ dont la forme n'est pas garantie."""
+    if x is None or x == "":
+        return ""
+    if isinstance(x, dict):
+        x = x.get("name") or x.get("id") or json.dumps(x, sort_keys=True)
+    elif isinstance(x, list):
+        x = len(x)
+    return str(x)[:n]
+
+
+def pool_accounts(markets):
+    """Comptes qui appartiennent aux pools (ex. bonding curve pump.fun) : ils ne sont pas de vraies baleines."""
+    acc = set()
+    for m in markets:
+        if isinstance(m, dict):
+            for k in ("pubkey", "liquidityA", "liquidityB"):
+                if m.get(k):
+                    acc.add(m[k])
+    return acc
+
+
 def parse_rug(d):
     tok = d.get("token") if isinstance(d.get("token"), dict) else {}
     mint_a = d.get("mintAuthority", tok.get("mintAuthority", _ABSENT))
@@ -162,11 +186,21 @@ def parse_rug(d):
         lps = [x for x in lps if x != ""]
         lp = max(lps) if lps else None
     holders = [h for h in (d.get("topHolders") or []) if isinstance(h, dict)]
+    markets = [m for m in (d.get("markets") or []) if isinstance(m, dict)]
+    pools = pool_accounts(markets)
+    real = [num(h.get("pct")) for h in holders if h.get("address") not in pools and h.get("owner") not in pools]
+    real = [x for x in real if x != ""]
+    ct = d.get("creatorTokens")
+    ct_n = len(ct) if isinstance(ct, list) else (len(ct.get("tokens") or []) if isinstance(ct, dict) and "tokens" in ct else "")
     risk_objs = [r for r in (d.get("risks") or []) if isinstance(r, dict)]
     return {
         "rc_creator_rugged": 1 if any("rugged" in str(r.get("name", "")).lower() for r in risk_objs) else 0,
         "rc_danger_n": sum(1 for r in risk_objs if r.get("level") == "danger"),
         "rc_insider_n": sum(1 for h in holders if h.get("insider")), "rc_holders_n": len(holders),
+        "rc_top1_ex_pool": real[0] if real else "", "rc_top10_ex_pool": round(sum(real[:10]), 4) if real else "",
+        "rc_total_holders": num(d.get("totalHolders")), "rc_market_type": small(markets[0].get("marketType")) if markets else "",
+        "rc_launchpad": small(d.get("launchpad") or d.get("deployPlatform")),
+        "rc_insider_graph": small(d.get("graphInsidersDetected")), "rc_creator_tokens_n": ct_n,
         "rc_score": num(d.get("score_normalised")), "rc_risks": "|".join(risks),
         "rc_mint_auth": flag(mint_a), "rc_freeze_auth": flag(freeze_a),
         "rc_top1_pct": pcts[0] if pcts else "", "rc_top10_pct": round(sum(pcts[:10]), 4) if pcts else "",
@@ -209,6 +243,10 @@ def enrich_one(mint, address, attempt, now_iso):
                                     "rugcheck_keys": sorted(rd.keys()) if isinstance(rd, dict) else None,
                                     "rugcheck_markets0": json.dumps((rd.get("markets") or [None])[0])[:2500] if isinstance(rd, dict) else None,
                                     "rugcheck_risks": rd.get("risks") if isinstance(rd, dict) else None,
+                                    "rugcheck_misc": {k: json.dumps(rd.get(k))[:500] for k in (
+                                        "launchpad", "deployPlatform", "creatorTokens", "insiderNetworks",
+                                        "graphInsidersDetected", "totalHolders", "verification", "rugged")}
+                                    if isinstance(rd, dict) else None,
                                     "goplus_head": json.dumps(gd)[:2000] if gd else None}) + "\n")
     except OSError:
         pass
