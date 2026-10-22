@@ -23,6 +23,10 @@ SEEN = os.path.join(DATA, "seen.csv")
 FOLLOW = os.path.join(DATA, "followups.csv")
 ENRICH = os.path.join(DATA, "enrich.csv")
 RAW = os.path.join(DATA, "enrich_raw.jsonl")
+PATHS = os.path.join(DATA, "paths.csv")
+PATH_FIELDS = ["address", "t", "o", "h", "l", "c", "v"]
+MAX_PATHS_PER_RUN = 8
+PATH_AGE = 7200  # on lit les 2 premieres heures de bougies 1 minute une fois la pool agee de 2 h
 HORIZONS = {"1h": 3600, "24h": 86400, "7d": 604800}
 MAX_FOLLOWUPS_PER_RUN = 20
 MAX_ENRICH_PER_RUN = 12
@@ -292,6 +296,31 @@ def main():
         enr.append(enrich_one(r["token"], r["address"], a + 1, now_iso))
     if enr:
         append(ENRICH, enr, ENRICH_FIELDS)
+
+    # --- trajectoire des 2 premieres heures (bougies 1 minute) pour tester les sorties rapides ---
+    have = {r["address"] for r in read(PATHS)}
+    ptodo = []
+    for r in seen + added:
+        ca = r.get("created_at") or r["ts"]
+        try:
+            t_c = parse(ca)
+        except Exception:
+            t_c = parse(r["ts"])
+        if r["address"] not in have and PATH_AGE <= now - t_c <= PATH_AGE + 28800:
+            ptodo.append((t_c, r))
+    ptodo.sort(key=lambda x: x[0])
+    prows = []
+    for t_c, r in ptodo[:MAX_PATHS_PER_RUN]:
+        d = get(f"{BASE}/pools/{r['address']}/ohlcv/minute?aggregate=1&limit=120&currency=usd&before_timestamp={int(t_c) + PATH_AGE}")
+        lst = (((d or {}).get("data") or {}).get("attributes") or {}).get("ohlcv_list") or []
+        if lst:
+            for c in sorted(lst):
+                prows.append({"address": r["address"], "t": c[0], "o": c[1], "h": c[2], "l": c[3], "c": c[4], "v": c[5]})
+        else:  # pas de bougie : marque la pool comme lue pour ne pas boucler
+            prows.append({"address": r["address"], "t": "", "o": "", "h": "", "l": "", "c": "", "v": ""})
+        time.sleep(2.2)
+    if prows:
+        append(PATHS, prows, PATH_FIELDS)
 
     # --- suivis ---
     follow = read(FOLLOW)

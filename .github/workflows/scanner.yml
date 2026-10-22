@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: scanner
@@ -40,3 +41,10 @@ jobs:
             left=$((300 - ($(date +%s) - start)))
             [ "$left" -gt 0 ] && sleep "$left"
           done
+      - name: Relancer (le declencheur planifie de GitHub ne demarre pas : le relevé s'enchaine tout seul)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f STOP ] || [ "$(date -u +%Y%m%d)" -gt 20261031 ]; then echo "arret"; exit 0; fi
+          gh api -X POST repos/${{ github.repository }}/actions/workflows/scanner.yml/dispatches -f ref=main -f "inputs[iterations]=6"
