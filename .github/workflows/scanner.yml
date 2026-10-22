@@ -41,7 +41,7 @@ jobs:
             left=$((300 - ($(date +%s) - start)))
             [ "$left" -gt 0 ] && sleep "$left"
           done
-      - name: Relancer (le declencheur planifie de GitHub ne demarre pas : le relevé s'enchaine tout seul)
+      - name: Relancer
         if: always()
         env:
           GH_TOKEN: ${{ github.token }}
