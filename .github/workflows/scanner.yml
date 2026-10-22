@@ -35,6 +35,7 @@ jobs:
           for i in $(seq 1 "$ITER"); do
             start=$(date +%s)
             python3 scanner.py || echo "scanner a echoue (iteration $i)"
+            python3 double.py || echo "double a echoue (iteration $i)"
             git add data
             git diff --cached --quiet || (git commit -q -m "releve $(date -u +%FT%TZ)" && git pull --rebase -q && git push -q) || echo "push a echoue (iteration $i)"
             [ "$i" -lt "$ITER" ] || break
