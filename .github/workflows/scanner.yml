@@ -2,8 +2,12 @@ name: scanner
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # GitHub peut retarder certaines executions, c'est normal
+    - cron: "7,37 * * * *"   # demarre toutes les 30 min ; GitHub peut retarder le depart, la boucle ci-dessous garde le rythme de 5 min
   workflow_dispatch:
+    inputs:
+      iterations:
+        description: "Nombre de releves (un aux 5 minutes). 1 pour un test."
+        default: "1"
 
 permissions:
   contents: write
@@ -15,17 +19,24 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 4
+    timeout-minutes: 34
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Scanner
-        run: python3 scanner.py
-      - name: Sauvegarder les donnees
+      - name: Boucle de scan
+        env:
+          ITER: ${{ github.event.inputs.iterations || '6' }}
         run: |
           git config user.name "meme-scanner"
           git config user.email "meme-scanner@users.noreply.github.com"
-          git add data
-          git diff --cached --quiet || (git commit -m "releve $(date -u +%FT%TZ)" && git pull --rebase -q && git push -q)
+          for i in $(seq 1 "$ITER"); do
+            start=$(date +%s)
+            python3 scanner.py || echo "scanner a echoue (iteration $i)"
+            git add data
+            git diff --cached --quiet || (git commit -q -m "releve $(date -u +%FT%TZ)" && git pull --rebase -q && git push -q) || echo "push a echoue (iteration $i)"
+            [ "$i" -lt "$ITER" ] || break
+            left=$((300 - ($(date +%s) - start)))
+            [ "$left" -gt 0 ] && sleep "$left"
+          done

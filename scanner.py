@@ -34,8 +34,9 @@ SEEN_FIELDS = FIELDS + ["token"]
 FOLLOW_FIELDS = FIELDS + ["horizon"]
 ENRICH_FIELDS = ["ts", "address", "token", "attempt", "rc_status", "rc_score", "rc_risks", "rc_mint_auth",
                  "rc_freeze_auth", "rc_top1_pct", "rc_top10_pct", "rc_lp_locked_pct", "rc_creator_bal",
-                 "rc_rugged", "gp_status", "gp_mintable", "gp_freezable", "gp_transfer_fee", "gp_trusted",
-                 "gp_holder_count"]
+                 "rc_rugged", "rc_creator_rugged", "rc_danger_n", "rc_insider_n", "rc_holders_n",
+                 "gp_status", "gp_mintable", "gp_freezable", "gp_transfer_fee", "gp_trusted", "gp_non_transferable",
+                 "gp_closable", "gp_balance_mutable", "gp_metadata_mutable"]
 
 
 def fetch(url):
@@ -156,7 +157,16 @@ def parse_rug(d):
     pcts = [p for p in pcts if p != ""]
     risks = [str(r.get("name", "")) for r in (d.get("risks") or []) if isinstance(r, dict)]
     lp = d.get("lpLockedPct")
+    if lp is None:  # pas verifie : le pourcentage de LP verrouille est peut-etre dans markets[].lp
+        lps = [num((m.get("lp") or {}).get("lpLockedPct")) for m in (d.get("markets") or []) if isinstance(m, dict)]
+        lps = [x for x in lps if x != ""]
+        lp = max(lps) if lps else None
+    holders = [h for h in (d.get("topHolders") or []) if isinstance(h, dict)]
+    risk_objs = [r for r in (d.get("risks") or []) if isinstance(r, dict)]
     return {
+        "rc_creator_rugged": 1 if any("rugged" in str(r.get("name", "")).lower() for r in risk_objs) else 0,
+        "rc_danger_n": sum(1 for r in risk_objs if r.get("level") == "danger"),
+        "rc_insider_n": sum(1 for h in holders if h.get("insider")), "rc_holders_n": len(holders),
         "rc_score": num(d.get("score_normalised")), "rc_risks": "|".join(risks),
         "rc_mint_auth": flag(mint_a), "rc_freeze_auth": flag(freeze_a),
         "rc_top1_pct": pcts[0] if pcts else "", "rc_top10_pct": round(sum(pcts[:10]), 4) if pcts else "",
@@ -170,11 +180,12 @@ def parse_goplus(d, mint):
     t = res.get(mint) or {}
     if not t:
         return {}
-    hc = t.get("holder_count")
     return {
         "gp_mintable": status_of(t.get("mintable")), "gp_freezable": status_of(t.get("freezable")),
         "gp_transfer_fee": "" if not t.get("transfer_fee") else json.dumps(t.get("transfer_fee"))[:80],
-        "gp_trusted": t.get("trusted_token", ""), "gp_holder_count": hc if hc is not None else "",
+        "gp_trusted": t.get("trusted_token", ""), "gp_non_transferable": t.get("non_transferable", ""),
+        "gp_closable": status_of(t.get("closable")), "gp_balance_mutable": status_of(t.get("balance_mutable_authority")),
+        "gp_metadata_mutable": status_of(t.get("metadata_mutable")),
     }
 
 
@@ -195,8 +206,10 @@ def enrich_one(mint, address, attempt, now_iso):
         if n < RAW_SAMPLE_LIMIT and (rd or gd):
             with open(RAW, "a") as f:
                 f.write(json.dumps({"ts": now_iso, "token": mint, "rc_status": rs, "gp_status": gs,
-                                    "rugcheck_head": json.dumps(rd)[:6000] if rd else None,
-                                    "goplus_head": json.dumps(gd)[:3000] if gd else None}) + "\n")
+                                    "rugcheck_keys": sorted(rd.keys()) if isinstance(rd, dict) else None,
+                                    "rugcheck_markets0": json.dumps((rd.get("markets") or [None])[0])[:2500] if isinstance(rd, dict) else None,
+                                    "rugcheck_risks": rd.get("risks") if isinstance(rd, dict) else None,
+                                    "goplus_head": json.dumps(gd)[:2000] if gd else None}) + "\n")
     except OSError:
         pass
     time.sleep(1.0)
