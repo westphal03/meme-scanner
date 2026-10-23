@@ -9,7 +9,7 @@ Gain/perte papier total : -1812 $ sur 7800 $ misés (-23.2% par position). Posit
 | ratio achats/ventes | positions | ont doublé | gain moyen par 100 $ | pire |
 |---|---|---|---|---|
 | 1–1.5 | 22 | 1 (5%) | -17.7 $ | -100 $ |
-| 1.5–2 | 17 | 1 (6%) | -24.2 $ | -100 $ |
+| 1.5–2 | 17 | 1 (6%) | -24.1 $ | -100 $ |
 | 2–3 | 18 | 3 (17%) | -19.7 $ | -100 $ |
 | 3–+ | 21 | 1 (5%) | -31.3 $ | -100 $ |
 
