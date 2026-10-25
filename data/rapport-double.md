@@ -8,9 +8,9 @@ Gain/perte papier total : -16627 $ sur 24000 $ misés (-69.3% par position). Pos
 
 | ratio achats/ventes | positions | ont doublé | gain moyen par 100 $ | pire |
 |---|---|---|---|---|
-| 1–1.5 | 69 | 3 (4%) | -72.8 $ | -100 $ |
+| 1–1.5 | 69 | 3 (4%) | -72.9 $ | -100 $ |
 | 1.5–2 | 57 | 3 (5%) | -64.7 $ | -100 $ |
 | 2–3 | 37 | 4 (11%) | -53.7 $ | -100 $ |
-| 3–+ | 77 | 3 (4%) | -77.0 $ | -100 $ |
+| 3–+ | 77 | 3 (4%) | -76.9 $ | -100 $ |
 
 Règle de lecture : moins de 30 positions fermées, c'est du bruit. Une moyenne positive portée par un seul gros x10 n'est pas une preuve.
