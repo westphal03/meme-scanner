@@ -2,15 +2,15 @@
 
 Règle : achat de 100 $ papier quand les achats 1 h dépassent les ventes 1 h (liquidité au moins 2 000 $, au moins 5 achats). À x2 on vend 90 %, 10 % reste en attente, vérifié chaque jour, réinvestissement d'une partie du profit si le prix tient encore x2. Coûts supposés 2 % par côté, prix relevé toutes les 5 minutes (un x2 qui retombe entre deux relevés est manqué).
 
-Positions : 390 (ouvertes 53, en attente 10 % 2, fermées 335).
-Ont doublé : 17 sur 390 (4%).
-Gain/perte papier total : -29810 $ sur 39000 $ misés (-76.4% par position). Positions ouvertes évaluées au dernier prix.
+Positions : 395 (ouvertes 56, en attente 10 % 2, fermées 337).
+Ont doublé : 17 sur 395 (4%).
+Gain/perte papier total : -30021 $ sur 39500 $ misés (-76.0% par position). Positions ouvertes évaluées au dernier prix.
 
 | ratio achats/ventes | positions | ont doublé | gain moyen par 100 $ | pire |
 |---|---|---|---|---|
-| 1–1.5 | 113 | 5 (4%) | -79.7 $ | -100 $ |
+| 1–1.5 | 114 | 5 (4%) | -80.1 $ | -100 $ |
 | 1.5–2 | 89 | 3 (3%) | -77.9 $ | -100 $ |
-| 2–3 | 63 | 4 (6%) | -67.8 $ | -100 $ |
-| 3–+ | 125 | 5 (4%) | -76.8 $ | -100 $ |
+| 2–3 | 63 | 4 (6%) | -69.5 $ | -100 $ |
+| 3–+ | 129 | 5 (4%) | -74.3 $ | -100 $ |
 
 Règle de lecture : moins de 30 positions fermées, c'est du bruit. Une moyenne positive portée par un seul gros x10 n'est pas une preuve.
