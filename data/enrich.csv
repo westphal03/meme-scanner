@@ -6383,3 +6383,15 @@ ts,address,token,attempt,rc_status,rc_score,rc_risks,rc_mint_auth,rc_freeze_auth
 2026-10-26T22:07:19Z,AdUXJ4W1VSWw7d94EnKZzGxVjTig8XR9JbsZs4MuAQQ4,Chq7NAH18qZhoXY9Jy179so473r33koZZQbFaCqjpump,1,ok,1.0,,0,0,99.9999998230069,100.0,100.0,0.0,0,0,0,0,20,9.718820023779747e-08,0.0,39.0,pump_fun,Pump.Fun,0,,ok,0,0,,0,0,0,0,0
 2026-10-26T22:07:19Z,9i6jvfZWhBvtZi2WqJcn87MP4J8fP9382U97aEgkTdQ3,2Dsr6M6mFJYrYDFGzRaVMmVjRS9jbXpw49ERD81cpump,1,ok,32.0,Single holder ownership,0,0,73.40034998800161,99.9018,100.0,0.0,0,0,0,0,16,25.4372201845489,26.5537,16.0,pump_fun,Pump.Fun,0,,ok,0,0,,0,0,0,0,0
 2026-10-26T22:07:19Z,AJEd1iLBbaE5RLKGAZ2LAQoNUxgRhPFcDhwG3w4wGJS7,7kiVMfLMsVYzTnUvtPefbhFvry7ntu6cMPxHUZiUpump,1,ok,66.0,Creator history of rugged tokens|Single holder ownership|High holder concentration,0,0,50.9473781798614,100.0,100.0,0.0,0,1,2,0,10,50.9473781798614,51.8755,10.0,pump_fun,Pump.Fun,0,11,ok,0,0,,0,0,0,0,0
+2026-10-26T22:16:36Z,FsSbaQyykgLpVdqu2jRfdZWy2PqpuuZ1958hSUUSF264,CxJCN4Q6gEXxJ9ZqJQxrgKWE4Vn6UHSYWfqooiWTpump,1,ok,29.0,Copycat token,0,0,95.82693506183583,100.0,100.0,0.0,0,0,0,0,20,4.156816709355257,4.1731,0.0,pump_fun,Pump.Fun,10,,ok,0,0,,0,0,0,0,0
+2026-10-26T22:16:36Z,Bfxe3uhUjFUfL2Nhgy35oU5seTaj6Eg5ve6G7mAWQ2Gy,GccXp98p2JGqwnuV4X5bTUAuh9W5twpmfuMnsHSUpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-26T22:16:36Z,G92HeJNTva7L7EavHUwPcF2AaS2wtcuHSYu7qLHpQbDX,BKH6aYrrLJtcSMKLzD6HYWLcjHDH6JKKS1DuhpBTpump,1,ok,52.0,Large Amount of LP Unlocked|Low amount of LP Providers,0,0,79.950252003951,99.5404,100.0,0.0,0,0,1,0,20,79.950252003951,79.9746,0.0,pump_fun_amm,unknown,0,,ok,0,0,,0,0,0,0,0
+2026-10-26T22:16:36Z,8ZghgYnwcDEQLvYrT7Lb274X1EQfkiaDhGCeXYG5NpCp,9vkKheBa5Qz7jXxkVwdNDPiXauc5tHVeUnX3YqQ7pump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-26T22:16:36Z,9jS6xbjXB5QmUWaNcs8D2Ywv38kUfFt1QwAFAwrKBwzE,DanuoEmwoCb6pqCt8Y8Hnkiw48uq4nEbwGGwoPNmibAL,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-26T22:16:36Z,5nE6aSHV4dW3qhFCbYM9iejGvW13MECXSUfSmU5zn332,C9BeiYLVp5aKMLM41kzsv2w2x4VYx2rDH6B5nZ6ipump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-26T22:16:36Z,B48ZXyp7QiiZ1UZQptfmcRKV9XrWxPJmct8LyECJYqmY,GxUtX8eemiaUhutZJr1gkrWQjpqmWS4rUKXym5PFpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-26T22:16:36Z,4LffjdRMvDXrRS3SUWLdtCDupuxGCjdmKLMkGyTJ7ym8,3PHsYLDNXGDs8ngDp4rnrqrnTc6VFymuRCqgfuLEpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-26T22:16:36Z,438K1Czw5pPxfg45GBfPxMDpnvzRPkDW2jw1ZUDWsAEX,7XogTBsZYwzdvMN9AHW9WNUJtU2MF5aHxTKnxtbSBncC,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-26T22:16:36Z,FC82oXC2bQvnkGTrjmGbLUsuRTeKjqJcCrzSKxE1AVmN,7Hfe1QQtmQF4t1D75mrsfpf2K6NXnST5r29X34N9pump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-26T22:16:36Z,74ioui3AdMdSbgqXc58BtEavaJpGunao1F5EoeNjAMqS,PudahWAWabhWEpWLm7A8GEJLrsEmFtj9AAwY27MVboP,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-26T22:16:36Z,EU5DQHijwq8yFdig5JMKJuwWbA9tJXzmB6GCWh5EkUEC,8bnti84LUvWBjQMS5qvS4Sfb7XkQ4wiZwAMxDTHqpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
