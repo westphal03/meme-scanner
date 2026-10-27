@@ -1,9 +1,10 @@
-# Comité du 2026-10-25 (données jusqu'au 2026-10-25)
+# Comité du 2026-10-26 (données jusqu'au 2026-10-26)
 
 Papier seulement. Seuils écrits d'avance : annees_pos_min=5, dd_max=-0.25, annee_recente_min=-0.12, trades_an_max=25, meme_crypto_max=3
 
 | Compte | Position | Objections du Sceptique | Décision du Chef |
 |---|---|---|---|
+| X-BNB | long 1.00 | seulement 2/8 années positives; baisse max -55% sous -25%; mauvaise année récente (-15%); BNB : pas de prix sur Crypto.com, forward impossible aujourd'hui | NON |
 | A-BTC | plat | — | Attendre (à plat) |
 | A-ETH | plat | — | Attendre (à plat) |
 | A-XRP | plat | — | Attendre (à plat) |
@@ -28,6 +29,5 @@ Papier seulement. Seuils écrits d'avance : annees_pos_min=5, dd_max=-0.25, anne
 | C-XRP | plat | seulement 4/8 années positives; baisse max -34% sous -25%; mauvaise année récente (-21%) | Attendre (à plat) |
 | D-BNB | plat | baisse max -32% sous -25%; mauvaise année récente (-16%); BNB : pas de prix sur Crypto.com, forward impossible aujourd'hui | Attendre (à plat) |
 | X-SOL | plat | seulement 1/7 années positives; baisse max -35% sous -25%; mauvaise année récente (-13%) | Attendre (à plat) |
-| X-BNB | plat | seulement 2/8 années positives; baisse max -55% sous -25%; mauvaise année récente (-15%); BNB : pas de prix sur Crypto.com, forward impossible aujourd'hui | Attendre (à plat) |
 
 Le Trader ne reçoit que les lignes GO papier (0). Les ordres réels restent à toi, à la main, après les 7 portes.
