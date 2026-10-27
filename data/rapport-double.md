@@ -10,7 +10,7 @@ Gain/perte papier total : -31355 $ sur 41000 $ misés (-76.5% par position). Pos
 |---|---|---|---|---|
 | 1–1.5 | 118 | 5 (4%) | -79.8 $ | -100 $ |
 | 1.5–2 | 92 | 3 (3%) | -80.0 $ | -100 $ |
-| 2–3 | 66 | 5 (8%) | -68.3 $ | -100 $ |
+| 2–3 | 66 | 5 (8%) | -68.4 $ | -100 $ |
 | 3–+ | 134 | 6 (4%) | -75.2 $ | -100 $ |
 
 Règle de lecture : moins de 30 positions fermées, c'est du bruit. Une moyenne positive portée par un seul gros x10 n'est pas une preuve.
