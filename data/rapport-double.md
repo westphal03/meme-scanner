@@ -4,7 +4,7 @@ Règle : achat de 100 $ papier quand les achats 1 h dépassent les ventes 1 h (l
 
 Positions : 634 (ouvertes 52, en attente 10 % 8, fermées 574).
 Ont doublé : 31 sur 634 (5%).
-Gain/perte papier total : -49885 $ sur 63400 $ misés (-78.7% par position). Positions ouvertes évaluées au dernier prix.
+Gain/perte papier total : -49886 $ sur 63400 $ misés (-78.7% par position). Positions ouvertes évaluées au dernier prix.
 
 | ratio achats/ventes | positions | ont doublé | gain moyen par 100 $ | pire |
 |---|---|---|---|---|
