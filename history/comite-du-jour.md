@@ -1,4 +1,4 @@
-# Comité du 2026-10-29 (données jusqu'au 2026-10-29)
+# Comité du 2026-10-30 (données jusqu'au 2026-10-30)
 
 Papier seulement. Seuils écrits d'avance : annees_pos_min=5, dd_max=-0.25, annee_recente_min=-0.12, trades_an_max=25, meme_crypto_max=3
 
