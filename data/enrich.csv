@@ -13691,3 +13691,15 @@ ts,address,token,attempt,rc_status,rc_score,rc_risks,rc_mint_auth,rc_freeze_auth
 2026-10-31T10:45:38Z,5CfkaDnVxoo77YkL54ujY1Emm6SvPpxiLVen9yySFqB4,6ZAV2mRR6Ad6QoyWSJp3WUBBkiLmFNngtUMYpzeRpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
 2026-10-31T10:45:38Z,Bd7Txz6qyv5SCUZQA2pcZzH4M281147ZdgeHg7X8RD5g,BFnvVSk4TnFKm3Go8wx7KkM9ECaztg1cXkkDCMTBpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
 2026-10-31T10:45:38Z,FvR2WibA5hDDJMcCFfRuMbMoiMaYDPJYF54L6LVkhdpR,HHDHqkr8C639KXeaharSs86dSeXEwjkpiTdHXehbpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-31T10:59:46Z,2fBHGN55KhmvTcgBYyimZiJRWng9JoQsZfviS1nL2aPe,C5aL8orfAiw9n49M2yn9CqBhqAUcAhgvxFab49Jupump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-31T10:59:46Z,CC6AbTKNuYivbsvmm5qfn9SAaYZnxrT3oADdv648MyZN,FWDdFNwZ9Wx7u6tek8ypvq1g59p8T7zmA98dGEP2pump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-31T10:59:46Z,BPL5J55gn9hmHxD3GJPb1TnKzNFLoNwupPRCnigUAbaV,4jS9UkCnTq34adDeKcBJTnr3dyCiw2Vw36Bv6U8gpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-31T10:59:46Z,8Dx4J2tgJ3CWztwg3AUdZ87KLSaocCryHN27iDwP2vJf,H8DpqgvUUPbJ7gyuVnBctVFv8u8oDEPmYrtFQmdWpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-31T10:59:46Z,3Wv1ZW2P99WaQyjBaxYYQyYL4sG9rjaR1FNMgBJKEJJz,AyZnPxC5XNE7Wzfy7oVm4SNiGy9z4ug8etyLDqYJpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-31T10:59:46Z,9nL2ira4Rso3XuSHh93vJxM6RNsNj65e7XmLF515zJoc,3o4und1YuNMf2GBP2cWYoeceqVSMvJ33dvuytSahpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-31T10:59:46Z,Ctod7BgaRjHCycWdKf2g7BvUMX2s6mRXmPBij6ix4rmR,dYxnp3w7bKm8DvJNco3bBJ6YfqDbK9YhLjjW3Cfdcwz,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-31T10:59:46Z,G1dQaC4GEACVTkBwVQtBqp52GF6PoAZPzm8qehFRnPh2,dYxnp3w7bKm8DvJNco3bBJ6YfqDbK9YhLjjW3Cfdcwz,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-31T10:59:46Z,9f8dgg5QCnhsLSq62mpsE8ejtHSbX9dqzYBVyfYEhNgS,HyEHYBkVTM8GEDModf5ks4cUeuiPQpK8mgidSh87E4DY,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,"{""current_fee_rate"": {""fee_rate"": ""0.01"", ""maximum_fee"": ""1000000000000000""}, ""s",0,0,0,0,1
+2026-10-31T10:59:46Z,9RGTF7Qn726KNmQhAk5dcCEfB6C4WDAypQUnPW2pvfjB,A1wykt76j4SrTKNusGud7BtuXNc639ePe4T1K9ispump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-31T10:59:46Z,3SdxtmQJq4dUyU28U88Td55HPgtsaD54yKGB3r9TFbG7,GJJ6SVY9AcMEZmGFMkMKWWboJHgNqykqLxgU7JovgRXL,1,ok,44.0,Single holder ownership|Low Liquidity,0,0,50.4425662171203,96.3965,,0.0,0,0,1,0,20,50.4425662171203,96.3965,0.0,,unknown,0,,ok,0,0,,0,0,0,0,0
+2026-10-31T10:59:46Z,GLQi43uSz3k4E3S2sjVEYpTewA3YYa6og7UYo2LPkpHx,dYxnp3w7bKm8DvJNco3bBJ6YfqDbK9YhLjjW3Cfdcwz,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
