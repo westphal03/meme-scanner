@@ -13355,3 +13355,15 @@ ts,address,token,attempt,rc_status,rc_score,rc_risks,rc_mint_auth,rc_freeze_auth
 2026-10-31T05:26:24Z,Cp4jxtjWtbJCGZsgrmM1mjpZxReJMvJFpzD5Ns4nSUFt,9R1SsFFcKgh54kuG3ZkTrvp7QiDLdRa6MxVVdqH9pump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
 2026-10-31T05:26:24Z,2E5YTAwPvpnpNkdvPHUon8EbrCtAgXg3NW7PXuRxxcQv,2xMCJiDFVKgJwk96a37hCSmbH12PKJ2B56MVv2fQpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
 2026-10-31T05:26:24Z,4TMw89vzU43B2NtGy7wcp9mvq1ELudWAmcrA1QGKunbD,F6YuRSmvLRwUS4EpTVfYu5BwHB673GWYNX3p8zCuj2jd,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-31T05:36:31Z,5wyuWD1Q34RmuLKuajbtirFSk3ah5UwaADdhYcDKS7Vw,DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF,1,ok,81.0,Mint Authority still enabled|Permanent Control Enabled|Freeze Authority still enabled|Low Liquidity|Mutable metadata|Name Mismatch,1,1,19.605742681457595,45.5882,,0.0,0,0,4,0,20,19.605742681457595,45.5882,0.0,,unknown,0,,ok,1,1,,0,0,0,1,1
+2026-10-31T05:36:31Z,3G2tVAhbn21s6gJofrWUaRfxk22AnHQZiTqoLW4q2htB,GD7xg6Kwvmpy6mgXg75P71F5cN9mgpaDXUb4ZUz1pump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-31T05:36:31Z,At4c7r3nNcsqtrB77ER9eegZs7ugVyBSubuesjLW6ahy,2VjkY38ua6N4qjwbSfFn9MaED3vMHQeALK8iJkW8pump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-31T05:36:31Z,A4HqsbgwzYCpcV2FMFmntDpjeCjhFKuKCm4ixuHTZPnE,79tBKKQKhZgntLArzSSrf9pSjLJ9N3nUWuw1JDfSpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-31T05:36:31Z,Bkr5M7MtMpWmgXKDDpUCbQLaWhmu3nY6q2n4E2anTB85,8GA6uKEgSVjqX3rL5BBwaAqH7jusgvC86ChgYRFaEbyS,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-31T05:36:31Z,8gMYKeAvjb5GHnzBt5zk4oDpvxYGpPQktmiGiSoNugJ4,aZVvt5xV9FbuPfrVtC8SBBsmCRKyseWovWdefzxpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-31T05:36:31Z,BayrzEr66GiiPgBAEJJCb8umEPQz2Gieni2rntBvVDZK,GjhiR4Ak1RSugzAmcNZepjq4pUKWLwkGcDz7uxWSpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-31T05:36:31Z,DdpqkmFapQ3t8oVmsB3WZbvprqK1gdULkiZoAbDjG6hV,6rBzgUcmLtRrTAuphqCpfay2hUGdUVXMJ8bEMh9Zpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-31T05:36:31Z,DPSBeZWKGkfibcMPGdrRJh2Z9Cb7CnZ2k3aCKbz8XB3E,HHqShVPtcrJMFakVKZqpDXHw28mpeTrzYq9b5HkMpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-31T05:36:31Z,Fq1tuy2HeufB4hgMfQaFveXzm69GCPNZ9aYf1gcGdAR8,DQLRvmpE8tdzY3LcCbyygJN1mi17CS4fyeg4yx1xpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-31T05:36:31Z,Et5jjhNm2DLXdQ5VbWrdCADhvgzwV5Setsndu6Ljzykg,5UjTbVn9EqrtXBeAcUuqRsRhnDyxhoiFxyi6oBqYpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-10-31T05:36:31Z,7VYuG8JukTUpEP8R2nv9uEJTfxcYcm7Vgd4G8eX39Do3,3U2v2exzwavBePbH91LDuynkctfqcCD4K7KhFjpCpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
