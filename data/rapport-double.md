@@ -2,13 +2,13 @@
 
 Règle : achat de 100 $ papier quand les achats 1 h dépassent les ventes 1 h (liquidité au moins 2 000 $, au moins 5 achats). À x2 on vend 90 %, 10 % reste en attente, vérifié chaque jour, réinvestissement d'une partie du profit si le prix tient encore x2. Coûts supposés 2 % par côté, prix relevé toutes les 5 minutes (un x2 qui retombe entre deux relevés est manqué).
 
-Positions : 734 (ouvertes 49, en attente 10 % 10, fermées 675).
-Ont doublé : 39 sur 734 (5%).
-Gain/perte papier total : -57820 $ sur 73400 $ misés (-78.8% par position). Positions ouvertes évaluées au dernier prix.
+Positions : 735 (ouvertes 49, en attente 10 % 10, fermées 676).
+Ont doublé : 39 sur 735 (5%).
+Gain/perte papier total : -57921 $ sur 73500 $ misés (-78.8% par position). Positions ouvertes évaluées au dernier prix.
 
 | ratio achats/ventes | positions | ont doublé | gain moyen par 100 $ | pire |
 |---|---|---|---|---|
-| 1–1.5 | 209 | 7 (3%) | -85.1 $ | -100 $ |
+| 1–1.5 | 210 | 7 (3%) | -85.2 $ | -100 $ |
 | 1.5–2 | 157 | 9 (6%) | -78.1 $ | -100 $ |
 | 2–3 | 122 | 7 (6%) | -80.5 $ | -100 $ |
 | 3–+ | 246 | 16 (7%) | -73.0 $ | -100 $ |
