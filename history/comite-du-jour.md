@@ -1,10 +1,9 @@
-# Comité du 2026-11-04 (données jusqu'au 2026-11-04)
+# Comité du 2026-11-05 (données jusqu'au 2026-11-05)
 
 Papier seulement. Seuils écrits d'avance : annees_pos_min=5, dd_max=-0.25, annee_recente_min=-0.12, trades_an_max=25, meme_crypto_max=3
 
 | Compte | Position | Objections du Sceptique | Décision du Chef |
 |---|---|---|---|
-| B-ETH | long 0.95 | seulement 4/8 années positives; baisse max -37% sous -25%; mauvaise année récente (-19%) | NON |
 | A-BTC | plat | — | Attendre (à plat) |
 | A-ETH | plat | — | Attendre (à plat) |
 | A-XRP | plat | — | Attendre (à plat) |
@@ -23,6 +22,7 @@ Papier seulement. Seuils écrits d'avance : annees_pos_min=5, dd_max=-0.25, anne
 | C-ETH | plat | baisse max -35% sous -25%; mauvaise année récente (-24%) | Attendre (à plat) |
 | D-XRP | plat | baisse max -31% sous -25%; mauvaise année récente (-15%) | Attendre (à plat) |
 | A-BNB | plat | seulement 4/8 années positives; baisse max -31% sous -25%; BNB : pas de prix sur Crypto.com, forward impossible aujourd'hui | Attendre (à plat) |
+| B-ETH | plat | seulement 3/8 années positives; baisse max -37% sous -25%; mauvaise année récente (-19%) | Attendre (à plat) |
 | C-BTC | plat | seulement 4/8 années positives; baisse max -45% sous -25%; mauvaise année récente (-18%) | Attendre (à plat) |
 | C-SOL | plat | seulement 4/7 années positives; baisse max -27% sous -25%; mauvaise année récente (-14%) | Attendre (à plat) |
 | C-XRP | plat | seulement 4/8 années positives; baisse max -34% sous -25%; mauvaise année récente (-21%) | Attendre (à plat) |
