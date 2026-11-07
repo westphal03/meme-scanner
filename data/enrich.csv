@@ -15419,3 +15419,15 @@ ts,address,token,attempt,rc_status,rc_score,rc_risks,rc_mint_auth,rc_freeze_auth
 2026-11-07T03:25:41Z,8AcoiwhcqWkKfwHjZnx2URBd3XCYuepCEDumiweTodV,7tTLTQmxVhtkxJF6Q64wJ8FPfGye1BhweJRvJWeLpump,1,ok,1.0,,0,0,93.49221302965181,100.0,100.0,0.0,0,0,0,0,8,3.2605476118353,6.5078,8.0,pump_fun,Pump.Fun,0,,ok,0,0,,0,0,0,0,0
 2026-11-07T03:25:41Z,8QZoacpAoLLiADwsSd1vZEs48QsfEvijAC79Ve9A4iiq,4XYAf1ucu6RK7V55xouFncUbMPzrsn3t2STqJz9eSzL3,1,ok,52.0,Large Amount of LP Unlocked|Low amount of LP Providers,0,0,78.0000022019086,99.2578,100.0,0.0,0,0,1,0,20,78.0000022019086,78.0321,575.0,pump_fun_amm,unknown,0,,ok,0,0,,0,0,0,0,0
 2026-11-07T03:25:41Z,GhJQH1H3fUHUidccSVKRauhhVHVepkHhFZekLoUAx3W6,5T2sA9ySSNLL8rjGcpbbaTwEeUtvAvvccLUdC4gTpump,1,ok,78.0,Creator history of rugged tokens|Single holder ownership|High holder concentration,0,0,63.900791675628795,100.0,100.0,0.0,0,1,2,0,14,63.900791675628795,63.9008,14.0,pump_fun,Pump.Fun,0,35,ok,0,0,,0,0,0,0,0
+2026-11-07T09:56:33Z,DKZqhPCzNCn2wUep2uM2CsWt73nBFQ4nyuzwVwG8h6hr,FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win,1,ok,21.0,Missing metadata,0,0,,,0.0,0.0,0,0,1,0,0,,,0.0,meteoraDlmm,unknown,5238,,ok,0,0,,0,0,0,0,1
+2026-11-07T09:56:33Z,4gqXxcLgvcKvFKDP4Lr7Q1Au3w4Unem8M1h3yXNjBYYs,6wZ5niv4rc4y9CvsUUYJCNRHcJEnneHwF4ypJeBCpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-11-07T09:56:33Z,4sokuQPR5F7JVG6QDH9BfVd8BWDBHkiqAa9ESGyswwZQ,Db7oAUTnDrGiNVH8KWnBDC1yotyP5UPdxAPJRka4hK2z,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-11-07T09:56:33Z,2UYhnaeXEPEZJJcjJFdqbxwJTdhT2pH7eb1Sw4eiNsC5,Db7oAUTnDrGiNVH8KWnBDC1yotyP5UPdxAPJRka4hK2z,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-11-07T09:56:33Z,Tauib9dHmAy1QC3RGBrh2sKRaDCTB11f1YvVEQ68SPp,Gb4ySWsN71wioEBz36CrFVoBJQcpixD6twocX8GYpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-11-07T09:56:33Z,3tTjVjfq6XJLtPmk56aBCJb6wZVx3UQDCKXmacPGCY7e,Db7oAUTnDrGiNVH8KWnBDC1yotyP5UPdxAPJRka4hK2z,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-11-07T09:56:33Z,39yLx3TksgjLNvBUQA32GNy1XTs8k9DE44DzqFkdGHLA,7RY3RvsMyMTKvYBPcTxvb3PWRryAy4fc2XUszRoApump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-11-07T09:56:33Z,8mLC6JGa3hL5uMyMoNZChHJRWjQ4oi9KBXBpS7Gr48bL,i43sLHx6oGki7AYhRLojn5SLMWS5DivpRnBc2fopump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-11-07T09:56:33Z,EsWys1cVh3AiaHy8866WXurwDok5AdFS34W2vjGPuzFR,8w9pp1LL9Hziezj1giVHFaD2u8XkpzDxVEb6UFKZpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-11-07T09:56:33Z,88gqaoBpEHKpKncyqW2gQSvfe2Zicav6K9vP8GV19AW9,C5Bhs4wJTS5SHpuf53AGDY86fZuoiv7uYF9QMcBSpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-11-07T09:56:33Z,EhFQTs8N8CyA7K9FAtcdHCzXkkC8P8y2sN78ukQFsWQq,DMgCZUirkHehJfksb5gqhAbwoT3fkkmvMwK6FJpjpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
+2026-11-07T09:56:33Z,56m2aX1G4xzPupPt2hnxbjHaKvRjbpBbwUN6H3ymJxg7,DCjwi5Gf2Krtx66rmct899fyWYrN4R7DsvRLbu8qpump,1,http_400,,,,,,,,,,,,,,,,,,,,,ok,0,0,,0,0,0,0,0
